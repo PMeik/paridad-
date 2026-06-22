@@ -232,7 +232,7 @@ In `scoring.json` each cell additionally carries the expert ground truth
 
 ## Code and Data
 
-- Repository: `https://github.com/PMeik/paridad`  
+- Repository: `https://github.com/PMeik/paridad-`  
 - Frozen outputs: `scoring.json`, `sonda.json`
 - Figures: produced by `figuras.py`
 
