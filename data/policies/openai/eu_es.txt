@@ -1,0 +1,277 @@
+Para aquellas personas que residen fuera del Espacio Económico Europeo, el Reino Unido y Suiza, pueden leer esta versión de nuestra Política de privacidad.
+
+En OpenAI, nuestra misión es garantizar que la inteligencia artificial general beneficie a todos. Creamos herramientas como ChatGPT y Sora para ayudar a las personas a aprender, crear y resolver problemas. En OpenAI (junto con nuestras entidades afiliadas, «OpenAI», «nosotros», «nuestro» o «nos») nos comprometemos a respetar su privacidad y estamos firmemente comprometidos a mantener segura cualquier información que obtengamos de usted o sobre usted. Esta Política de privacidad describe nuestras prácticas con respecto a los datos personales que recabamos de o sobre usted, y cómo los utilizamos cuando utiliza nuestra página web, nuestras aplicaciones y nuestros servicios (conjuntamente, los «Servicios»). 
+
+Esta Política de privacidad no se aplica a los contenidos que tratamos en nombre de los clientes de nuestras ofertas comerciales, como nuestra API. Nuestro uso de esos datos se rige por los acuerdos con nuestros clientes que regulan el acceso y el uso de esas ofertas.
+
+Para obtener información sobre cómo recogemos y utilizamos la información de entrenamiento para desarrollar nuestros modelos de lenguaje que alimentan ChatGPT y otros Servicios, y las opciones de las que dispone respecto a esa información, consulte esta Política, así como este artículo del Centro de Ayuda⁠(se abre en una ventana nueva).
+
+1. Datos personales que recogemos
+Recogemos datos personales sobre usted («Datos personales») de la siguiente manera:
+
+Datos personales que proporciona: Recogemos Datos personales si usted crea una cuenta para utilizar nuestros Servicios o se comunica con nosotros de la siguiente manera:
+
+Información de la cuenta: Cuando crea una cuenta con nosotros, recabamos datos relacionados con dicha cuenta, como su nombre, su información de contacto, su fecha de nacimiento, las credenciales de la cuenta, los datos de pago y el historial de operaciones (conjuntamente, la «Información de la cuenta»). Algunos de nuestros Servicios también pueden permitirle subir una foto de perfil, un nombre de usuario u otra información como parte de la Información de la cuenta.
+Contenido del usuario: Recogemos Datos personales que usted proporciona en las solicitudes (input) en nuestros Servicios («Contenido»), incluidos sus prompts y otro contenido que cargue, como archivos⁠(se abre en una ventana nueva), imágenes⁠(se abre en una ventana nueva), audio y vídeo⁠(se abre en una ventana nueva), personajes de Sora⁠(se abre en una ventana nueva) y datos de servicios conectados⁠(se abre en una ventana nueva), dependiendo de las funcionalidades que utilice. Algunos de nuestros Servicios le permiten interactuar con otros usuarios, como publicar, comentar o enviar mensajes, y también tratamos esas interacciones como Contenido.
+Información de comunicación: Si se comunica con nosotros, por ejemplo, por correo electrónico o a través de nuestras páginas en redes sociales, podemos recoger Datos personales, como su nombre, información de contacto y el contenido de los mensajes que envíe («Información de comunicación»).
+Datos de contacto: Si decide vincular los contactos de su dispositivo, subimos información de los contactos de su dispositivo y verificamos cuáles de sus contactos también utilizan nuestros Servicios. Si alguno de sus contactos aún no está utilizando nuestros Servicios, le informaremos si se inscriben en nuestros Servicios más adelante. Más información⁠(se abre en una ventana nueva) sobre cómo vincular sus contactos y cómo utilizamos la información de contacto cargada⁠(se abre en una ventana nueva) correspondiente a personas que no usan nuestros Servicios.
+Otra información que nos proporcione: Recogemos otra información que nos proporcione, como cuando participa en nuestros eventos o encuestas, o cuando nos proporcione a nosotros o a un proveedor que actúe en nuestro nombre información para determinar su identidad o edad (conjuntamente, «Otra información que nos proporcione»).
+Datos personales que recibimos de su uso de los Servicios: Cuando visita, usa o interactúa con los Servicios, recibimos la siguiente información sobre su visita, uso o interacciones:
+
+Datos de registro: Recogemos información que su navegador o dispositivo envía automáticamente cuando usa nuestros Servicios. Los datos de registro incluyen su dirección IP, el tipo de navegador y su configuración, la fecha y hora de su solicitud, y cómo interactúa con nuestros Servicios.
+Datos de uso: Recogemos información sobre su uso y actividad en los Servicios, como los tipos de contenido que visualiza o con los que interactúa, las funciones que utiliza y las acciones que realiza, cuando envía valoraciones sobre una respuesta del modelo, las personas con las que interactúa, así como su zona horaria, país, las fechas y horas de acceso, el agente de usuario y su versión, el tipo de ordenador o dispositivo móvil, y la conexión de su ordenador. Si utiliza el navegador Atlas, también podemos recoger los datos de su navegador de acuerdo con sus controles⁠(se abre en una ventana nueva) y el uso del servicio. 
+Información del dispositivo: Recogemos información sobre el dispositivo que usa para acceder a los Servicios, como por ejemplo el nombre del dispositivo, el sistema operativo, los identificadores del dispositivo y el navegador que utiliza. La información recogida dependerá del tipo de dispositivo que utilice y de su configuración.
+Información de ubicación: Determinamos el área general desde donde su dispositivo accede a nuestros Servicios a partir de cierta información, como su dirección IP, por motivos de seguridad y para mejorar su experiencia con el producto, por ejemplo, para proteger su cuenta al detectar actividad inusual de inicio de sesión o para ofrecer respuestas más precisas. Además, algunos de nuestros Servicios le permiten elegir si proporciona información de ubicación más precisa desde su dispositivo, como la información de ubicación desde el GPS de su dispositivo.
+Cookies y tecnologías similares: Utilizamos cookies y tecnologías similares para operar y administrar nuestros Servicios, y mejorar su experiencia. Almacenemos parte de la información descrita en esta Política mediante cookies, por ejemplo, para ayudar a mantener sus preferencias a lo largo de las sesiones si no ha iniciado sesión, o para ayudar con la autenticación y la asistencia al cliente. Para obtener más detalles sobre nuestro uso de cookies, por favor lea nuestra Política de cookies⁠.
+Datos que recibimos de otras fuentes: Recibimos datos de otras fuentes, como nuestros socios de confianza en seguridad y protección para proteger la seguridad y prevenir el fraude, el abuso y otras amenazas a nuestros Servicios, así como de proveedores de marketing que nos proporcionan información sobre posibles clientes de nuestros Servicios empresariales.
+
+También recogemos información de otras fuentes, como información disponible públicamente en internet, para desarrollar los modelos que alimentan nuestros Servicios. Para obtener más información sobre las fuentes de información utilizadas para desarrollar los modelos que alimentan ChatGPT y otros Servicios, por favor consulte este artículo del Centro de Ayuda⁠(se abre en una ventana nueva).
+
+2. Cómo usamos los Datos personales
+Utilizamos Datos personales para los siguientes fines:
+
+Prestar, analizar y mantener nuestros Servicios, por ejemplo, para responder a sus preguntas para ChatGPT;
+Mejorar y desarrollar nuestros Servicios y realizar investigaciones, por ejemplo, para desarrollar nuevas funcionalidades;
+Personalizar y adaptar su experiencia en todos nuestros Servicios, por ejemplo, para proporcionarle contenido más relevante;
+Comunicarnos con usted, lo que incluye responder a sus preguntas y enviarle información sobre nuestros Servicios y eventos, por ejemplo, sobre cambios o mejoras en los Servicios;
+Identificar a sus contactos que usan nuestros Servicios cuando elija vincular sus contactos y notificarle si se unen a nuestros Servicios más adelante;
+Para prevenir fraudes, actividades ilegales o usos indebidos de nuestros Servicios, y para proteger la seguridad de nuestros sistemas y Servicios, incluyendo la supervisión de cualquier Contenido enviado o intercambiado en nuestras plataformas (más información aquí⁠); y
+Cumplir con obligaciones legales y proteger los derechos, la privacidad, la seguridad o la propiedad de nuestros usuarios, de OpenAI o de terceros, por ejemplo, para evitar daños a usted u otras personas, o para estimar su edad y ofrecerle una experiencia adecuada para su edad.
+También agregamos o disociamos los Datos personales para que ya no le identifiquen y usamos esta información para los fines descritos anteriormente, como analizar la forma en que se usan nuestros Servicios, mejorarlos y añadirles funciones, y llevar a cabo actividades de investigación. Conservaremos y utilizaremos la información disociada de forma disociada y no trataremos de revertir dicha disociación salvo que así lo exija la ley.
+
+Como se ha indicado anteriormente, podemos utilizar el Contenido que nos proporcione para mejorar nuestros Servicios, por ejemplo, para entrenar los modelos que alimentan ChatGPT. Lee nuestras instrucciones⁠(se abre en una ventana nueva) para saber cómo puedes oponerte a que utilicemos tu contenido para entrenar nuestros modelos.
+
+3. Comunicación de Datos personales
+Comunicamos sus Datos personales en las siguientes circunstancias:
+
+Proveedores y prestadores de servicios: Para ayudarnos a satisfacer las necesidades de las operaciones de nuestro negocio y a prestar determinados servicios y funciones, comunicamos Datos personales a proveedores y prestadores de servicios, incluidos los proveedores de servicios de alojamiento, proveedores de atención al cliente, servicios en la nube, servicios de distribución de contenido, servicios de soporte y seguridad, software de comunicación por correo electrónico, servicios de análisis web, procesadores de pagos y transacciones, proveedores de búsqueda y compras, y proveedores de tecnología de la información. También trabajamos con proveedores de servicios que nos ayudan con la verificación de edad e identidad. Puede obtener más información aquí⁠(se abre en una ventana nueva). Según nuestras instrucciones, estas partes accederán, tratarán o almacenarán los Datos personales únicamente en el desempeño de sus funciones con nosotros.
+Transferencias empresariales: En el supuesto de que seamos objeto de una operación estratégica, una reorganización, un procedimiento concursal, una suspensión de pagos o la transmisión de servicios a otro proveedor (conjuntamente, una «Operación»), sus Datos personales podrán comunicarse en el proceso de diligencia debida a las contrapartes y los terceros que colaboren en la Operación y transmitirse a una entidad sucesora o afiliada en el marco de dicha Operación, junto con otros activos.
+Autoridades gubernamentales u otros terceros: Podemos compartir sus Datos personales, incluida la información sobre su interacción con nuestros Servicios, con autoridades gubernamentales, empresas del sector o terceros de conformidad con la normativa aplicable: i) si así nos lo exige la legislación aplicable o si consideramos de buena fe que dicha acción es necesaria para cumplir con una obligación legal; ii) para proteger y defender nuestros derechos o bienes; iii) si determinamos, a nuestro exclusivo criterio, que se ha producido un incumplimiento de nuestras condiciones, políticas o de la ley; iv) para detectar o prevenir actividades fraudulentas o ilegales; v) para velar por la seguridad e integridad de nuestros productos, empleados, usuarios o del público; o vi) para protegernos frente a cualquier responsabilidad legal.
+Entidades afiliadas: Comunicamos Datos personales a nuestras entidades afiliadas, es decir, a cualquier entidad que controle, esté controlada por, o esté bajo control común con OpenAI. Nuestras entidades afiliadas pueden utilizar estos Datos personales de manera coherente con esta Política.
+Administradores de cuentas empresariales: Cuando crea una cuenta de ChatGPT Enterprise o una cuenta empresarial, los administradores de dicha cuenta pueden acceder a su cuenta de OpenAI y controlarla, e incluso pueden acceder a su Contenido. Asimismo, si crea una cuenta utilizando una dirección de correo electrónico que pertenezca a su empleador o a otra organización, podremos comunicar a estos el hecho de que tiene una cuenta de OpenAI y hacerles llegar cierta información de la cuenta, como su dirección de correo electrónico, para, por ejemplo, permitir que le añadan a su cuenta empresarial.
+Padre, madre o tutor de un adolescente: Los usuarios adolescentes y sus padres o tutores pueden optar por vincular sus cuentas, lo que permite al padre, madre o tutor gestionar ciertos ajustes y recibir alertas si detectamos un problema grave de seguridad. Estas cuentas pueden desvincularse en cualquier momento. Más información⁠(se abre en una ventana nueva) sobre la vinculación de cuentas.
+Otros usuarios y terceros con los que interactúe o comparta información: Determinados Servicios le permiten interactuar o compartir información con otros usuarios o terceros. Por ejemplo, puede compartir contenido como conversaciones de ChatGPT⁠(se abre en una ventana nueva) o vídeos⁠(se abre en una ventana nueva) y personajes⁠(se abre en una ventana nueva) de Sora, o compartir información con terceros que actúan como socios de búsqueda⁠(se abre en una ventana nueva) y socios de compras⁠(se abre en una ventana nueva). La información que comparta con terceros que actúan como socios está sujeta a sus propias condiciones y políticas de privacidad, y debe asegurarse de que comprende esas condiciones y políticas antes de compartir información con ellos.
+También agregamos o disociamos los Datos personales de manera que ya no le identifiquen y los compartimos con terceros para los fines descritos anteriormente, como ayudar a mejorar nuestros Servicios.
+
+4. Retención
+Conservaremos sus Datos personales única y exclusivamente durante el tiempo que sea necesario para prestarle nuestros Servicios o para cualquier otro fin legítimo de la empresa, como la resolución de conflictos, por razones de seguridad y protección o para cumplir nuestras obligaciones legales. El tiempo que conservemos los Datos personales depende del tipo de datos, de cómo los usemos y, en muchos casos, de su configuración:
+
+Información que conservamos hasta que usted la elimine: Algunos de nuestros Servicios le permiten eliminar los Datos personales almacenados en su cuenta. Por ejemplo, puede eliminar conversaciones específicas, o todas, de ChatGPT, eliminar Memoria guardada⁠(se abre en una ventana nueva) específica o eliminar su cuenta. Una vez que elija eliminar los Datos personales, los eliminaremos de nuestros sistemas en un plazo de 30 días, a menos que necesitemos conservarlos durante más tiempo, tal y como se describe a continuación, o que ya se hayan anonimizado y desvinculado de su cuenta cuando nos permita usar su Contenido para mejorar nuestros modelos⁠(se abre en una ventana nueva). 
+Información que eliminamos automáticamente: En algunos casos, los Datos personales se eliminarán automáticamente. Por ejemplo, los Chats temporales⁠(se abre en una ventana nueva) se eliminarán automáticamente en un plazo de 30 días (a menos que debamos conservarlos por motivos de seguridad o legales, como se describe más abajo), y su historial de navegación de Atlas en modo incógnito⁠(se abre en una ventana nueva) no se guardará después de que finalice su sesión.
+Información que conservamos durante más tiempo por razones legítimas de seguridad, protección o legales: En algunos casos, necesitamos conservar los Datos personales durante más tiempo incluso después de que usted los elimine, por ejemplo, porque estamos legalmente obligados a hacerlo, para luchar contra el fraude y el abuso, por razones de seguridad o con fines de mantenimiento de registros financieros. Por ejemplo:
+Si se prohíbe Contenido específico o su cuenta debido a infracciones de nuestras políticas de uso⁠, podemos conservar esos datos para proteger nuestros Servicios contra el fraude, el abuso u otras infracciones de nuestras políticas;
+Si estamos legalmente obligados a conservar sus datos (por ejemplo, si recibimos un requerimiento judicial válido), entonces podremos conservarlos durante el tiempo que dure la obligación legal o reglamentaria pertinente;
+Cuando somos parte de una transacción financiera (por ejemplo, cuando procesamos su pago para una cuenta de ChatGPT Plus o Pro, o facilitamos una compra en ChatGPT), podemos conservar la información relacionada con el pago y la transacción para cumplir con nuestros fines de contabilidad, resolución de disputas y cumplimiento normativo;
+Cuando nos pida que eliminemos sus Datos personales, conservamos el registro de auditoría de la solicitud de eliminación para poder verificar que hemos cumplido con la solicitud.
+Al determinar estos periodos de conservación, consideramos una serie de factores, tales como:
+
+Nuestra finalidad para el tratamiento de los Datos personales (p. ej., si necesitamos conservarlos para proporcionar nuestros Servicios);
+La cantidad, naturaleza y sensibilidad de la información;
+El riesgo potencial de daños derivados de un uso o revelación no autorizados;
+Cualquier requisito legal al que estemos sujetos.
+5. Controles de datos
+Nuestros Servicios le proporcionan una serie de funcionalidades de control sobre sus Datos personales y sobre cómo se utilizan y conservan. Siempre puede cambiar esta configuración en la configuración de su cuenta. Estos incluyen los siguientes controles:
+
+Puede elegir fácilmente si su Contenido puede usarse para mejorar y entrenar nuestros modelos⁠(se abre en una ventana nueva).
+Puede decidir si quiere que recordemos detalles entre chats para que el Contenido sea más personalizado y relevante.
+Puede exportar su historial y datos de ChatGPT en las funcionalidades de control de datos de su cuenta.
+Puede eliminar o archivar chats en ChatGPT, o eliminar su cuenta por completo.
+Si habilita Chat temporal⁠(se abre en una ventana nueva) en ChatGPT, esas conversaciones con ChatGPT no aparecerán en su historial ni se utilizarán para mejorar los modelos de OpenAI.
+Dependiendo de la legislación aplicable, es posible que pueda elegir qué cookies se utilizan cuando utilice nuestros Servicios.
+Si utiliza el navegador Atlas, puede eliminar su historial de navegación o elegir navegar por la web en modo incógnito, lo que ayuda a mantener su navegación privada frente a otras personas que utilizan su dispositivo.
+Puede darse de baja de las comunicaciones de marketing que recibe de nuestra parte utilizando las opciones proporcionadas en dichas comunicaciones.
+Puede encontrar más información sobre los controles de datos aquí⁠(se abre en una ventana nueva) y visitando privacy.openai.com⁠(se abre en una ventana nueva).
+
+6. Sus derechos
+Usted dispone de los siguientes derechos legales en relación con sus Datos personales:
+
+Acceder a tus Datos personales y a obtener información sobre cómo se lleva a cabo su tratamiento.
+Eliminar tus Datos personales de nuestros registros.
+Rectificar o actualizar sus Datos personales.
+Transferir sus Datos personales a terceros (derecho a la portabilidad de sus datos).
+Limitar cómo tratamos tus Datos personales.
+Retire su consentimiento—cuando nos basemos en su consentimiento como base legal para el tratamiento.
+Presentar una reclamación ante su autoridad local de protección de datos (véase a continuación).
+Asimismo, le corresponden los siguientes derechos de oposición:
+
+Opóngase al tratamiento de sus datos personales con fines de marketing directo.
+Oposición al tratamiento que hacemos de sus Datos personales cuando nuestro tratamiento se base en intereses legítimos.
+Puede ejercer algunos de estos derechos a través de su cuenta de OpenAI utilizando las herramientas descritas en la sección de controles de datos. Si no puede ejercer sus derechos a través de su cuenta, envíe su solicitud a través de privacy.openai.com⁠(se abre en una ventana nueva) o a la dirección dsar@openai.com⁠. Si tiene alguna otra inquietud en relación con el tratamiento de sus datos personales, puede escribirnos a privacy@openai.com.
+
+Esperamos poder responder cualquier pregunta o duda que pueda tener. Si tiene alguna reclamación pendiente con nosotros o con nuestro delegado de protección de datos:
+
+Si reside en el Espacio Económico Europeo, puede ponerse en contacto con la Comisión de Protección de Datos de Irlanda⁠(se abre en una ventana nueva) como nuestra autoridad de control principal, o con su autoridad de control local⁠(se abre en una ventana nueva);
+Si reside en el Reino Unido, puede ponerse en contacto con la Oficina del Comisionado de Información⁠(se abre en una ventana nueva);
+Si reside en Suiza, puede ponerse en contacto con el comisionado federal de protección de datos e información⁠(se abre en una ventana nueva).
+Nota en cuanto a la precisión: Los servicios como ChatGPT generan respuestas leyendo la solicitud de un usuario y, para la respuesta, predicen las palabras que tienen más probabilidades de aparecer a continuación. En algunos casos, es posible que estas palabras no sean las más acertadas desde el punto de vista fáctico. Por esta razón, no debería confiar en la precisión fáctica de los resultados de nuestros modelos.
+
+Si nota que los resultados de ChatGPT contienen información fácticamente inexacta sobre usted y quiere solicitar una rectificación o eliminación de la información, puede enviar estas solicitudes a través de privacy.openai.com o a la dirección dsar@openai.com, y consideraremos su solicitud basándonos en la ley aplicable y las capacidades técnicas de nuestros modelos.
+
+Para obtener información sobre cómo ejercer sus derechos con respecto a los datos que hemos recogido de internet para entrenar nuestros modelos, consulte este aviso⁠(se abre en una ventana nueva).
+
+7. Niños
+Nuestros Servicios no están dirigidos ni destinados a menores de 13 años.  No recabamos conscientemente Datos personales de menores de 13 años. Si tiene motivos para creer que un menor de 13 años ha proporcionado Datos personales a OpenAI a través de los Servicios, por favor envíenos un correo electrónico a privacy@openai.com. Investigaremos cualquier notificación y, si corresponde, eliminaremos los Datos personales de nuestros sistemas. Los usuarios menores de 18 años deben tener permiso de sus progenitores o tutores para usar nuestros Servicios. Obtenga más información⁠(se abre en una ventana nueva) sobre cómo los adolescentes y sus progenitores o tutores pueden elegir vincular sus cuentas.
+
+8. Seguridad
+Aplicamos medidas técnicas, administrativas y organizativas comercialmente razonables para proteger los Datos personales frente a cualquier pérdida, uso indebido y acceso, revelación, alteración o destrucción no autorizados. Sin embargo, ninguna transmisión por internet o correo electrónico es totalmente segura ni está exenta de errores. Por lo tanto, debería tener especial cuidado a la hora de decidir qué información proporciona a los Servicios. Además, no nos hacemos responsables de la elusión de cualquier configuración de privacidad o medidas de seguridad contenidas en el Servicio o en páginas web de terceros.
+
+9. Bases legales para el tratamiento
+Finalidad del tratamiento
+
+Tipo de Datos personales tratados, en función de la actividad de tratamiento
+
+Base legal, en función de la actividad de tratamiento
+
+Prestar, analizar y mantener nuestros Servicios.
+
+Por ejemplo:
+
+Utilizamos su dirección de correo electrónico y contraseña para autenticar su inicio de sesión.
+Utilizamos los datos de su tarjeta de pago para procesar los cargos de suscripción o las compras en ChatGPT.
+Utilizamos sus prompts y otro Contenido para proporcionarle respuestas.
+Realizamos análisis, mediciones y otros tipos de análisis para comprender cómo se utilizan nuestros Servicios; por ejemplo, analizamos los datos de uso para garantizar la disponibilidad y fiabilidad, así como la seguridad de nuestros Servicios.
+Información de la cuenta
+Contenido del usuario
+Información de comunicaciones
+Otra información que usted proporcione
+Datos de registro
+Datos de uso
+Información del dispositivo
+Información de ubicación
+[li>Cookies y tecnologías similares[/li]
+Cuando sea necesario para ejecutar un contrato con usted, como procesar sus prompts y otro Contenido para proporcionarle una respuesta.
+
+
+
+Personalizar y adaptar su experiencia en todos nuestros Servicios.
+
+Por ejemplo:
+
+Si la Memoria está activada, es posible que recordemos los detalles que usted ha compartido en distintas conversaciones para ofrecer respuestas más personalizadas y coherentes en futuros chats.
+Utilizamos información que usted añade en Instrucciones personalizadas (como «Me gustan las respuestas concisas») para adaptar el modo de respuesta del modelo.
+Sugerimos temas de conversación a partir de asuntos que usted ha comentado o guardado anteriormente en su Memoria
+Adaptamos recomendaciones para vídeos de Sora que puedan ser pertinentes para usted.
+Para ofrecerle una experiencia adecuada para su edad.
+Información de la cuenta
+Contenido del usuario
+Otra información que usted proporcione
+Datos de registro
+Datos de uso
+Información del dispositivo
+Información de ubicación
+Cookies y tecnologías similares
+Cuando sea necesario para ejecutar un contrato con usted, como seguir sus Instrucciones personalizadas para responder a sus prompts.
+
+Cuando sea necesario para nuestros intereses legítimos y los de terceros para proporcionarle una mejor experiencia de usuario. Por ejemplo, para personalizar funciones y contenido o hacer sugerencias sobre temas que puedan interesarle.
+
+Cuando sea necesario para cumplir con una obligación legal (o, si no estamos bajo una obligación legal específica, cuando sea necesario para nuestros intereses legítimos y los de terceros), por ejemplo, para proporcionarle una experiencia adecuada a su edad.
+
+Mejorar y desarrollar nuestros Servicios, y llevar a cabo actividades de investigación.
+
+Por ejemplo: 
+
+Si el entrenamiento está habilitado (consulte sus controles de datos aquí) o si usted proporciona valoraciones, utilizamos el contenido que comparte con nosotros para ayudar a que nuestros modelos sean más precisos y mejores para resolver sus problemas específicos, así como para mejorar sus capacidades generales y su seguridad.
+Usamos contenido disponible públicamente y de acceso gratuito y abierto en internet, así como datos de terceros colaboradores, para entrenar nuestros modelos.
+Información de la cuenta
+Contenido del usuario
+Información de comunicaciones
+Otra información que usted proporcione
+Información que recibimos de otras fuentes
+Datos de registro
+Datos de uso
+Información del dispositivo
+Cookies y tecnologías similares
+Cuando sea necesario para nuestros intereses legítimos, los de terceros y los de la sociedad en general, lo que incluye el desarrollo y la mejora de nuestros Servicios, como cuando entrenamos y mejoramos nuestros modelos para todos. Para obtener más información, consulte aquí⁠(se abre en una ventana nueva).
+
+Comunicarnos con usted, lo que incluye enviarle información sobre nuestros Servicios y eventos, y promocionar nuestros Servicios ante usted.
+
+Envío de actualizaciones sobre cambios en las características o interrupciones.
+Envío de ciertas formas de comunicaciones de marketing.
+Respuesta a una solicitud que usted envíe a través del Centro de Ayuda.
+Envío de encuestas para solicitar valoraciones o aportaciones sobre nuestros productos y Servicios.
+Información de la cuenta
+Información de comunicación
+Información que recibimos de otras fuentes
+Otra información que usted proporcione
+Datos de registro
+Datos de uso
+Información del dispositivo
+Cookies y tecnologías similares
+Cuando sea necesario para ejecutar un contrato con usted, como tratar su información de contacto para enviarle un anuncio de naturaleza técnica sobre los Servicios. 
+
+Su consentimiento cuando se lo solicitemos para tratar sus Datos personales para un fin específico que le comuniquemos, como procesar su información de contacto para enviarle ciertos tipos de comunicaciones de marketing.
+
+Cuando sea necesario para nuestros intereses legítimos y los de terceros, como cuando enviamos encuestas para solicitar valoraciones.
+
+Identificar a aquellos de sus contactos que usan nuestros Servicios cuando elige vincular sus contactos, y comunicarle más adelante si estos se unen a nuestros Servicios.
+
+Datos de contacto
+Datos de registro
+Información del dispositivo
+Cuando sea necesario para ejecutar un contrato con usted cuando elige vincular sus contactos en nuestros Servicios.
+
+Cuando sea necesario para nuestros intereses legítimos y los de terceros, con el fin de permitirle vincular sus contactos y colaborar con personas que pueda conocer en nuestros Servicios.
+
+Prevenir fraudes, actividades ilegales o usos indebidos de nuestros Servicios, así como proteger la seguridad de nuestros sistemas y Servicios.
+
+Por ejemplo: 
+
+Supervisión de intentos de inicio de sesión sospechosos o de una actividad inusual en su cuenta.
+Uso de direcciones IP e identificadores de dispositivo para detectar abusos.
+Conservación de información sobre cuentas que infringen políticas.
+Información de la cuenta
+Contenido del usuario
+Información de comunicaciones
+Otra información que usted proporcione
+Información que recibimos de otras fuentes
+Datos de registro
+Datos de uso
+Información del dispositivo
+Cookies y tecnologías similares
+Cuando sea necesario para cumplir con una obligación legal.
+
+Siempre y cuando no estemos sujetos a una obligación legal específica, cuando sea necesario para nuestros intereses legítimos y los de terceros, lo que incluye la protección de nuestros Servicios frente a abusos, fraudes o riesgos de seguridad, como el tratamiento de datos de colaboradores de confianza para proteger contra el fraude, el abuso y las amenazas a la seguridad en nuestros Servicios.
+
+Cumplir con obligaciones legales y proteger nuestros derechos, privacidad, seguridad o bienes o los de nuestros usuarios, de OpenAI o de terceros.
+
+Por ejemplo: 
+
+Conservación de la información de facturación para cumplir con los requisitos financieros.
+Facilitación de información a las fuerzas y cuerpos de seguridad cuando sea requerida por una solicitud legal válida.
+Investigación y exigencia del cumplimiento de nuestras Condiciones de uso, lo que incluye supervisar el contenido enviado o intercambiado en nuestras plataformas (más información aquí).
+Adopción de medidas para prevenir daños, por ejemplo, notificando a padres, madres o tutores cuando detectemos un riesgo de daño para usuarios adolescentes con cuentas vinculadas.
+Estimación de la edad para proporcionar una experiencia adecuada a cada edad.
+Información de la cuenta
+Contenido del usuario
+Información de comunicaciones
+Otra información que usted proporcione
+Información que recibimos de otras fuentes
+Datos de registro
+Datos de uso
+Información del dispositivo
+Cookies y tecnologías similares
+Cuando sea necesario para cumplir con una obligación legal, como conservar la información de facturación para cumplir con los requisitos financieros.
+
+Siempre y cuando no estemos sujetos a una obligación legal específica, cuando sea necesario para nuestros intereses legítimos, los de terceros y los de la sociedad en general, lo que incluye la protección de nuestros derechos, seguridad y bienes o los de nuestras filiales, usuarios o terceros, como el análisis de datos de registro para identificar fraudes y abusos en nuestros Servicios.
+
+Cuando sea necesario proteger sus intereses vitales o los de otra persona, por ejemplo, cuando se activen alertas de seguridad para adolescentes.
+
+10. Transferencias de datos
+OpenAI trata sus Datos personales en servidores que se ubican fuera del EEE, Suiza y el Reino Unido para los fines descritos en esta Política. Esto incluye el tratamiento y el almacenamiento de sus Datos personales en nuestras instalaciones y servidores en Estados Unidos o en países o territorios donde se encuentren nuestras entidades afiliadas y colaboradores o nuestros proveedores y prestadores de servicios. A pesar de que las leyes de protección de datos varían de un país a otro, y que es posible que estos países no ofrezcan el mismo nivel de protección de datos que su país de origen, con respecto a sus Datos personales aplicamos las protecciones que se describen en esta Política, independientemente del lugar de tratamiento. Cuando se produce una transferencia de Datos personales fuera del EEE, Suiza o el Reino Unido, nos basamos en mecanismos de transferencia válidos para cumplir con la legislación aplicable en materia de protección de datos, tales como:
+
+Nos basamos en las decisiones de adecuación⁠(se abre en una ventana nueva) de la Comisión Europea y en los reglamentos de adecuación del Secretario de Estado del Reino Unido, de conformidad con el artículo 45, apartado 1, del RGPD de la UE y del RGPD del Reino Unido («RGPD»), al transferir sus Datos personales a cualquier país que se considere que proporciona un nivel adecuado de protección.
+Para otras jurisdicciones, nos basamos en las Cláusulas Contractuales Tipo («CCT») aprobadas por la Comisión Europea de conformidad con el artículo 46, apartado 2, letra c), del RGPD y en el Anexo a las CCT sobre la Transferencia Internacional de Datos del Reino Unido.
+Para más información o para obtener una copia de las garantías adecuadas que tenemos implementadas al transferir Datos personales, por favor contáctenos en privacy@openai.com.
+
+11. Cambios en la Política de privacidad
+Podremos actualizar esta Política de vez en cuando. Cuando lo hagamos, publicaremos una versión actualizada y la fecha de entrada en vigor en esta página, a menos que la legislación aplicable exija otro tipo de notificación.
+
+12. Responsable del tratamiento de datos
+Si reside en el Espacio Económico Europeo (EEE) o en Suiza, el responsable del tratamiento de sus Datos personales, tal como se describe en la presente Política, será OpenAI Ireland Limited, con sede social en 1st Floor, The Liffey Trust Centre, 117-126 Sheriff Street Upper, Dublin 1, D01 YC43, Irlanda.
+
+Si usted reside en cualquier otro lugar, OpenAI OpCo, LLC, con sede social en 1455 Third Street, San Francisco, California 94158, Estados Unidos, es el responsable del tratamiento de sus Datos personales, tal como se describe en esta Política.
+
+13. Cómo contactar con nosotros
+Si tiene alguna pregunta o duda que no haya sido abordada en esta Política, contacte con nuestro Servicio de Asistencia⁠(se abre en una ventana nueva). Como alternativa, puede escribirnos a privacy@openai.com o a la dirección indicada anteriormente en el apartado 12 (Responsable del tratamiento de datos).
+
+Para asuntos relacionados con el tratamiento de Datos personales, puede contactar con nuestro Delegado de protección de datos en dpo@openai.com.

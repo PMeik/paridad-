@@ -1,0 +1,6 @@
+anthropic
+python-dotenv
+pdfplumber
+sentence-transformers
+numpy
+matplotlib

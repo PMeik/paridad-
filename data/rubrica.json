@@ -1,0 +1,201 @@
+{
+  "_meta": {
+    "version": "v1-borrador-destilado-del-docx-v3",
+    "fuente": "analisis_brechas_regulatorias_v3_verificado_md.docx",
+    "notas": "Borrador destilado por Palta para revisión de la coágulo. Las citas vienen verificadas (✓) del documento. Falta confirmar: (1) que la redacción del campo 'requisito' sea precisa para que los embeddings recuperen bien; (2) el flag 'es_sonda' (yo marqué los que se aplican a derechos individuales que una policy podría mencionar); (3) si falta algún requisito de las 5 dimensiones.",
+    "ground_truth_por_ley": "Cada requisito ya trae el fallo esperado para Chile y Brasil según el análisis experto del documento. Esto es contra lo que se valida el motor."
+  },
+
+  "capas": {
+    "A": "EU AI Act (Reg. 2024/1689) — obligaciones sobre sistemas de IA",
+    "B": "GDPR (Reg. 2016/679) — derechos del titular de datos personales"
+  },
+
+  "fallos_posibles": ["full", "partial", "absent", "absent_sin_enforcement"],
+
+  "requisitos": [
+
+    {
+      "id": "R01",
+      "dimension": "1. Regulación de IA de alto riesgo",
+      "capa": "A",
+      "requisito": "La ley establece prácticas prohibidas de IA (sistemas que manipulan, explotan vulnerabilidades, social scoring por autoridades públicas, identificación biométrica masiva).",
+      "articulo_estandar": "EU AI Act Art. 5",
+      "es_sonda": false,
+      "ground_truth": {
+        "Chile21719": {"fallo": "absent", "razon": "Ley de protección de datos, no de IA. No clasifica IA por riesgo."},
+        "LGPD":       {"fallo": "absent", "razon": "Tampoco regula IA. PL 2.338/2023 pendiente."}
+      }
+    },
+
+    {
+      "id": "R02",
+      "dimension": "1. Regulación de IA de alto riesgo",
+      "capa": "A",
+      "requisito": "La ley clasifica el scoring crediticio (credit scoring) como sistema de IA de alto riesgo con obligaciones específicas de conformidad.",
+      "articulo_estandar": "EU AI Act Anexo III",
+      "es_sonda": false,
+      "ground_truth": {
+        "Chile21719": {"fallo": "absent", "razon": "No contemplado."},
+        "LGPD":       {"fallo": "absent", "razon": "No contemplado."}
+      }
+    },
+
+    {
+      "id": "R03",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "requisito": "El titular tiene derecho a no ser objeto de una decisión basada exclusivamente en el tratamiento automatizado, incluida la elaboración de perfiles, que produzca efectos jurídicos o le afecte significativamente.",
+      "articulo_estandar": "GDPR Art. 22",
+      "es_sonda": true,
+      "ground_truth": {
+        "Chile21719": {"fallo": "full",    "articulo": "Art. 8 bis", "razon": "Derecho de oposición con excepciones a/b/c."},
+        "LGPD":       {"fallo": "partial", "articulo": "Art. 20",     "razon": "Solo derecho de revisión; no garantiza intervención humana."}
+      }
+    },
+
+    {
+      "id": "R04",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "requisito": "Cuando hay decisiones automatizadas, la ley garantiza intervención humana significativa (no meramente formal) por parte del responsable del tratamiento.",
+      "articulo_estandar": "GDPR Art. 22(3)",
+      "es_sonda": true,
+      "ground_truth": {
+        "Chile21719": {"fallo": "full",    "articulo": "Art. 8 bis", "razon": "Intervención humana explícita."},
+        "LGPD":       {"fallo": "absent",  "articulo": "Art. 20",     "razon": "No garantizada explícitamente."}
+      }
+    },
+
+    {
+      "id": "R05",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "requisito": "El titular tiene derecho a recibir información significativa sobre la lógica aplicada, así como sobre la importancia y las consecuencias previstas del tratamiento automatizado (explicabilidad).",
+      "articulo_estandar": "GDPR Arts. 13(2)(f) / 14(2)(g)",
+      "es_sonda": true,
+      "ground_truth": {
+        "Chile21719": {"fallo": "full",    "articulo": "Art. 14 ter letra l", "razon": "Información significativa sobre lógica + consecuencias previstas."},
+        "LGPD":       {"fallo": "partial", "articulo": "Art. 20 §1",          "razon": "Sin profundidad de explicabilidad definida."}
+      }
+    },
+
+    {
+      "id": "R06",
+      "dimension": "3. Transferencia internacional",
+      "capa": "B",
+      "requisito": "La ley regula las transferencias internacionales de datos personales mediante mecanismos de adecuación, garantías apropiadas (cláusulas tipo) o normas corporativas vinculantes (BCR).",
+      "articulo_estandar": "GDPR Arts. 44-49",
+      "es_sonda": true,
+      "ground_truth": {
+        "Chile21719": {"fallo": "full", "articulo": "Art. 28", "razon": "Cubre adecuación, cláusulas tipo y BCR."},
+        "LGPD":       {"fallo": "full", "articulo": "Arts. 33-34", "razon": "Cubre adecuación (Art. 34) y garantías (Art. 33)."}
+      }
+    },
+
+    {
+      "id": "R07",
+      "dimension": "3. Transferencia internacional",
+      "capa": "B",
+      "requisito": "La ley exige que las empresas extranjeras designen un representante en la jurisdicción local con responsabilidad propia (no solo un contacto procesal).",
+      "articulo_estandar": "GDPR Art. 27",
+      "es_sonda": true,
+      "ground_truth": {
+        "Chile21719": {"fallo": "partial", "articulo": "Art. 10 inc. 2° + Art. 14 inc. final", "razon": "Solo medio de contacto, sin responsabilidad solidaria."},
+        "LGPD":       {"fallo": "partial", "articulo": "Art. 61", "razon": "Notificación procesal, sin responsable solidario por defecto."}
+      }
+    },
+
+    {
+      "id": "R08",
+      "dimension": "3. Transferencia internacional",
+      "capa": "A",
+      "requisito": "La ley exige a los proveedores de modelos de IA de propósito general publicar un resumen suficientemente detallado del contenido utilizado para entrenar el modelo.",
+      "articulo_estandar": "EU AI Act Art. 53(1)(d)",
+      "es_sonda": false,
+      "ground_truth": {
+        "Chile21719": {"fallo": "absent", "razon": "Sin disposición específica sobre datos de entrenamiento de IA."},
+        "LGPD":       {"fallo": "absent", "razon": "Sin disposición específica sobre datos de entrenamiento de IA."}
+      }
+    },
+
+    {
+      "id": "R09",
+      "dimension": "4. Contenido sintético y deepfakes",
+      "capa": "A",
+      "requisito": "La ley define el concepto de deepfake (contenido manipulado por IA que se asemeja a personas, objetos, lugares o eventos reales).",
+      "articulo_estandar": "EU AI Act Art. 3(60)",
+      "es_sonda": false,
+      "ground_truth": {
+        "Chile21719": {"fallo": "absent", "razon": "Ninguna ley define deepfake."},
+        "LGPD":       {"fallo": "absent", "razon": "Ninguna ley define deepfake."}
+      }
+    },
+
+    {
+      "id": "R10",
+      "dimension": "4. Contenido sintético y deepfakes",
+      "capa": "A",
+      "requisito": "La ley obliga a los proveedores de sistemas de IA generativa a marcar las salidas como contenido sintético en formato legible por máquina.",
+      "articulo_estandar": "EU AI Act Art. 50(2)",
+      "es_sonda": true,
+      "ground_truth": {
+        "Chile21719": {"fallo": "absent", "razon": "No obliga etiquetado de contenido generado por IA."},
+        "LGPD":       {"fallo": "absent", "razon": "No obliga etiquetado de contenido generado por IA."}
+      }
+    },
+
+    {
+      "id": "R11",
+      "dimension": "4. Contenido sintético y deepfakes",
+      "capa": "B",
+      "requisito": "Los datos biométricos están clasificados como categoría especial de datos sensibles con régimen reforzado de protección.",
+      "articulo_estandar": "GDPR Art. 9",
+      "es_sonda": false,
+      "ground_truth": {
+        "Chile21719": {"fallo": "full", "articulo": "Art. 16 ter", "razon": "Datos biométricos como sensibles."},
+        "LGPD":       {"fallo": "full", "articulo": "Art. 11",     "razon": "Datos biométricos como sensibles."}
+      }
+    },
+
+    {
+      "id": "R12",
+      "dimension": "5. Enforcement e institucionalidad",
+      "capa": "B",
+      "requisito": "La ley exige Evaluación de Impacto en la Protección de Datos (EIPD/DPIA) obligatoria para tratamientos de alto riesgo (decisiones automatizadas, tratamiento masivo, monitoreo zonas públicas, datos sensibles).",
+      "articulo_estandar": "GDPR Art. 35 + EU AI Act Art. 9",
+      "es_sonda": false,
+      "ground_truth": {
+        "Chile21719": {"fallo": "full",    "articulo": "Art. 15 ter", "razon": "Obligatoria para evaluaciones automatizadas, masivo, monitoreo, sensibles."},
+        "LGPD":       {"fallo": "partial", "articulo": "Art. 38",     "razon": "Solo a pedido de la ANPD, no por default."}
+      }
+    },
+
+    {
+      "id": "R13",
+      "dimension": "5. Enforcement e institucionalidad",
+      "capa": "B",
+      "requisito": "La ley exige el principio de protección de datos desde el diseño y por defecto (privacy by design / by default).",
+      "articulo_estandar": "GDPR Art. 25",
+      "es_sonda": false,
+      "ground_truth": {
+        "Chile21719": {"fallo": "full", "articulo": "Art. 14 quáter", "razon": "Privacy by design explícito."},
+        "LGPD":       {"fallo": "full", "articulo": "Art. 46 §2",     "razon": "Privacy by design explícito."}
+      }
+    },
+
+    {
+      "id": "R14",
+      "dimension": "5. Enforcement e institucionalidad",
+      "capa": "B",
+      "requisito": "La ley reconoce el ejercicio colectivo de los derechos del titular (acción colectiva / class action en materia de protección de datos).",
+      "articulo_estandar": "GDPR Art. 80 + Directiva 2020/1828",
+      "es_sonda": false,
+      "ground_truth": {
+        "Chile21719": {"fallo": "absent", "razon": "21.719 no prevé acción colectiva. Solo acción individual en Art. 47. El Art. 22 regula cesión por órganos públicos, no es acción colectiva."},
+        "LGPD":       {"fallo": "full", "articulo": "Art. 22", "razon": "Permite ejercicio individual o colectivo."}
+      }
+    }
+
+  ]
+}

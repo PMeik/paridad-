@@ -1,0 +1,279 @@
+Política de Privacidad
+En vigor desde el 8 de julio de 2026
+
+Esta política se publicó el 8 de junio de 2026 y entrará en vigor el 8 de julio de 2026.
+
+Anthropic es una empresa de investigación y seguridad en IA que construye sistemas de IA fiables, interpretables y dirigibles.
+
+Esta Política de Privacidad explica cómo recogemos, utilizamos, comunicamos y tratamos sus datos personales cuando utiliza nuestra página web, Claude.ai, u otros productos y servicios de Anthropic (los "Servicios"). Esta Política de Privacidad no se aplica al contenido que tratamos por cuenta de los clientes de nuestras soluciones ofertadas, como nuestras cuentas Enterprise. Nuestro uso de esos datos se rige por los acuerdos celebrados con nuestros clientes que regulan el acceso y la utilización de dichas soluciones ofertadas.
+
+Consulte nuestra Política de Privacidad para No Usuarios para obtener información sobre cómo se entrenan nuestros grandes modelos de lenguaje y cómo los datos personales obtenidos de fuentes externas, incluidos los casos en los que otros puedan enviar datos personales al utilizar nuestros servicios, pueden utilizarse en el desarrollo o la prestación de nuestros productos y servicios.
+
+Esta Política de Privacidad también describe sus derechos de protección de datos. Consulte el apartado 4 (“Derechos y Opciones”) para más información sobre sus derechos y cómo ejercerlos.
+
+Si se encuentra en Canadá, Brasil o la República de Corea, lea la Divulgación Suplementaria Regional correspondiente que se aplica a usted.
+
+Si se encuentra en Washington o en un estado con leyes similares sobre datos de salud del consumidor, lea nuestra Política de Privacidad de Datos de Salud del Consumidor, que se aplica a usted si integra aplicaciones de salud de terceros con Claude.
+
+1. Recogida de datos personales
+Anthropic recoge las siguientes categorías de datos personales:
+
+Datos personales que usted proporciona directamente
+Datos identificativos y de contacto: Anthropic recoge datos identificativos, incluido su nombre, dirección de correo electrónico y número de teléfono, cuando se registra para obtener una cuenta de Anthropic o para recibir información sobre nuestros Servicios. También podemos recopilar o generar identificadores indirectos (por ejemplo, “USUARIO12345”).
+Información de pago: Anthropic recopila su información de pago si adquiere acceso a nuestros Servicios.
+Entradas y resultados: usted puede interactuar con los Servicios en diversos formatos, incluyendo, pero no limitado a sesiones de chat, programación, agentes autónomos (donde Claude realiza tareas de varios pasos o ejecuta acciones por cuenta de usted) y servicios conectados. El contenido que usted envía a los Servicios a través de estas interacciones, incluido el enviado mediante aplicaciones, servicios y contenido de terceros que decida cargar, integrar o con el que interactúe utilizando nuestros Servicios, constituye sus "Inputs". Los Inputs generan respuestas y acciones ("Outputs"). Si incluye datos personales o hace referencia a contenido externo en sus Inputs, recopilaremos dicha información y esta podrá reproducirse en sus Outputs. En función de los permisos que usted conceda a Claude, algunos Outputs podrán dar lugar a acciones con efectos fuera de los Servicios, como el envío de comunicaciones, la modificación de archivos o la interacción con servicios de terceros en su nombre.
+Comentarios sobre el uso de nuestros Servicios: agradecemos sus comentarios, incluidas las ideas y sugerencias para mejorar o valorar un Output en respuesta a un Input (“Comentarios” o “Feedback”). Si valora un Output en respuesta a un Input (por ejemplo, mediante el icono de pulgares arriba/pulgares abajo), podremos almacenarla conversación como parte de sus Comentarios. Consulte este enlace para obtener más información sobre cómo utilizamos sus Comentarios.
+Datos de participación en estudios: si usted participa en estudios de investigación, encuestas o entrevistas de Anthropic (por ejemplo, nuestro Anthropic Interviewer), recopilaremos las respuestas que proporcione, los datos de cuenta asociados y la Información Técnica relacionada. Podremos combinar estos datos con otros datos de su cuenta para realizar análisis agregados.
+Información de comunicación: si se comunica con nosotros, incluido a través de nuestro chatbot en nuestra página de Ayuda, recopilaremos su nombre, información de contacto y el contenido de cualquier mensaje que envíe.
+Datos de verificación: en determinadas circunstancias, podremos solicitarle que verifique su edad o identidad. Si decide hacerlo, los datos que recopilaremos incluyen, en función del método: una imagen de su documento de identidad oficial y la información que figure en él (como su número de identificación y fecha de nacimiento); su imagen en formato de foto o vídeo, plantillas de geometría facial (que pueden considerarse "datos biométricos" en algunas jurisdicciones); y el resultado de la verificación (por ejemplo, si su edad cumple el umbral aplicable).
+Cuando usted proporciona Inputs (incluidos la carga de archivos, la concesión a Claude de acceso a servicios de terceros o la instrucción a Claude para recuperar información o actuar sobre ella), usted es responsable de asegurarse de que dispone de los derechos, permisos o autorización necesarios para hacerlo.
+
+Datos personales que recibimos automáticamente por su uso de los Servicios
+Cuando utiliza los Servicios, también recibimos automáticamente ciertos datos técnicos (descritos a continuación y denominados colectivamente “Información Técnica”). Esto incluye:
+
+Información de dispositivo y conexión. En función de la configuración de permisos, su dispositivo o navegador nos envía automáticamente información sobre cuándo y cómo instala, accede o utiliza nuestros Servicios. Esta información incluye el tipo de dispositivo, información del sistema operativo, información del navegador y referencias de páginas web, red móvil, información de conexión, operador móvil o proveedor de servicios de Internet (ISP), configuración de zona horaria, dirección IP (incluida información sobre la ubicación del dispositivo derivada de su dirección IP), identificadores (incluidos identificadores del dispositivo o de publicidad, identificadores probabilísticos y otros identificadores únicos personales o en línea).
+Información de uso. Recopilamos información sobre su uso de los Servicios, como las fechas y horas de acceso, historial de navegación, búsqueda, información sobre los enlaces en los que hace clic y sobre las aplicaciones de terceros, los servicios y el contenido que usted integra o con los que interactúa, las páginas que consulta y otra información sobre cómo utiliza los Servicios, así como la tecnología de los dispositivos que utiliza para acceder a ellos.
+Información de registro y resolución de problemas. Recopilamos información sobre el rendimiento de nuestros Servicios cuando los utiliza. Esta información incluye archivos de registro. Si usted o su dispositivo reciben un error, podemos recopilar información sobre el error, la hora en que se produjo, la función que se estaba utilizando, el estado de la aplicación cuando se produjo el error y cualquier comunicación o contenido proporcionado en el momento en el que se produjo el error.
+Cookies y tecnologías similares. Nosotros, así como nuestros proveedores de servicios, utilizamos cookies, scripts o tecnologías similares (“Cookies”) para gestionar los Servicios y recopilar información sobre usted y su uso de los Servicios. Estas tecnologías nos ayudan a reconocerle, adaptar o personalizar su experiencia, comercializar productos o servicios adicionales para usted y analizar el uso de nuestros Servicios para que le resulten más útiles. Consulte nuestra Política de Cookies para obtener más información sobre cómo utilizamos estas tecnologías, así como sus controles de exclusión y otras opciones.
+Datos personales que recogemos o recibimos para entrenar nuestros modelos
+Anthropic recoge datos personales de terceros para entrenar nuestros modelos. En concreto, entrenamos nuestros modelos utilizando datos de las siguientes fuentes:
+
+Información disponible públicamente en Internet;
+Datos obtenidos a través de acuerdos comerciales con terceras empresas;
+Datos proporcionados por nuestros usuarios o crowd workers, incluyendo Inputs y Outputs de nuestros Servicios (excepto que los usuarios se excluyan);
+Comentarios que los usuarios proporcionan explícitamente sobre nuestros Servicios;
+Materiales señalados para revisiones de seguridad, protección o cumplimiento de políticas;
+Datos que generamos internamente.
+Consulte nuestra Política de Privacidad para No Usuarios para obtener más información sobre cómo recogemos y usamos sus datos personales en el desarrollo de los modelos de lenguaje que impulsan nuestros Servicios, las medidas que tomamos para minimizar el impacto sobre la privacidad de las personas a través del proceso de entrenamiento, así como sus opciones con respecto a esa información.
+
+2. Uso de datos personales
+Utilizamos sus datos personales para las siguientes finalidades:
+
+Proporcionar, mantener y facilitar cualquier producto y servicio con respecto a su cuenta de Anthropic, que se rigen por nuestras Condiciones de Servicio;
+Ofrecer, mantener y facilitar servicios y funciones opcionales que mejoren la operatividad de la plataforma y la experiencia del usuario;
+Proporcionarle actualizaciones del servicio, comunicaciones y recomendaciones personalizadas sobre nuestros Servicios que puedan ser de su interés;
+Crear y administrar su cuenta de Anthropic;
+Facilitar los pagos de los productos y servicios prestados por Anthropic;
+Prevenir e investigar fraudes, abusos y violaciones de nuestra Política de uso, actividades ilegales o delictivas, el acceso o uso no autorizado de datos personales o de los sistemas y redes de Anthropic; proteger nuestros derechos y los derechos de terceros; proteger su seguridad o la de cualquier otra persona; así como cumplir obligaciones legales, administrativas y de política institucional;
+Investigar y resolver disputas;
+Investigar y resolver problemas de seguridad;
+Depurar, identificar y reparar errores que perjudican la funcionalidad existente;
+Mejorar los Servicios y realizar investigaciones, incluido el entrenamiento de nuestros modelos y la realización de investigaciones más amplias sobre temas relacionados con la IA, como los impactos sociales de la IA; y
+Hacer cumplir nuestras Condiciones de Servicio, así como términos y acuerdos similares, incluida nuestra Política de uso.
+Podemos utilizar sus Inputs y Outputs para entrenar y mejorar los modelos de IA de Anthropic, a menos que opte por excluirse a través de la configuración de su cuenta. Incluso si decide optar por la posibilidad de excluirse, utilizaremos los Inputs y Outputs para la mejora de los modelos cuando: (i) sus conversaciones sean señaladas para revisión de seguridad con el fin de mejorar nuestra capacidad para detectar contenido dañino, hacer cumplir nuestras políticas o avanzar en la investigación sobre seguridad de la IA, o (ii) nos haya reportado explícitamente los materiales (por ejemplo, a través de nuestros mecanismos de retroalimentación).
+
+Consulte el apartado 10 para obtener más información sobre nuestras bases de legitimación en relación con el tratamiento de sus datos personales.
+
+3. Destinatarios y fuentes de datos de terceros
+Anthropic podrá comunicar o recibir datos personales de las siguientes categorías de terceros para los fines indicados en esta Política:
+
+Filiales y socios corporativos: Anthropic podrá comunicar las categorías de datos personales descritas anteriormente a sus filiales y entidades relacionadas.
+Proveedores de servicios y socios comerciales: Anthropic podrá recibir y comunicar las categorías de datos personales descritas anteriormente a sus proveedores de servicios y socios comerciales para diversos fines empresariales, como el alojamiento de sitios web y datos, garantizar el cumplimiento de las normas del sector, así como labores de investigación, auditoría, tratamiento de datos, investigación y resolución de problemas de seguridad, prevención e investigación de fraudes, abusos y violaciones de nuestra Política de uso y prestación de los Servicios al usuario.
+Su organización y administrador: Si usted utiliza una dirección de correo electrónico perteneciente a su empleador u otra organización, su cuenta podrá vincularse a la cuenta empresarial de dicha organización con nosotros, según lo descrito en nuestras Condiciones de Servicio para Consumidores.
+Anthropic también podrá recibir o comunicar datos personales en las siguientes circunstancias:
+
+Como parte de una operación societaria relevante: Si Anthropic participa en una fusión, operación, quiebra u otra situación que implique la transferencia de activos comerciales, Anthropic recibirá o comunicará sus datos personales como parte de estas operaciones.
+Sitios web, integraciones y servicios de terceros: Nuestros Servicios le permiten conectarse e interactuar con aplicaciones, servicios y contenido de terceros ("Servicios de Terceros") a través de los Servicios y mediante integraciones que usted habilite, como conectores, plugins, webhooks y APIs externas. Cuando se conecta a Servicios de Terceros o interactúa con ellos:
+Claude podrá enviar sus Inputs, Outputs e instrucciones a Servicios de Terceros para realizar acciones en su nombre (como leer archivos, enviar mensajes u obtener información). El Servicio de Terceros recibe estos datos directamente y los trata conforme a su propia política de privacidad.
+Claude podrá recuperar contenido y datos de los Servicios de Terceros con los que usted interactúa. Estos datos pasan a formar parte de sus Inputs.
+Algunas integraciones o funciones pueden permitir a Claude acceder a Servicios de Terceros de forma continuada hasta que usted desactive la función o desconecte la integración en su configuración.
+Anthropic no controla ni es responsable de las prácticas de datos de los Servicios de Terceros. Antes de habilitar una integración, de conceder a Claude acceso a un Servicio de Terceros o de instruir a Claude para que realice acciones en un Servicio de Terceros, usted debe asegurarse de que tiene la autorización para conceder dicho acceso y de que hacerlo cumple con cualesquiera condiciones, políticas u obligaciones de confidencialidad aplicables. Antes de habilitar una integración, debe revisar la política de privacidad del tercero. Nuestros Servicios también pueden enlazar a sitios web de terceros (como redes sociales); al seguir estos enlaces, usted proporciona información directamente a dichos terceros. El hecho de que enlacemos o admitamos una integración con un Servicio de Terceros no significa que lo avalemos o actuemos en nombre de ese tercero.
+En cumplimiento de obligaciones normativas o legales, con fines de seguridad, derechos de terceros y para hacer cumplir nuestros derechos o nuestras condiciones. Podremos compartir datos personales con autoridades gubernamentales, fuerzas del orden u otros terceros cuando, sobre la base de la información de que dispongamos, tengamos la creencia de buena fe de que la comunicación es razonablemente necesaria para (i) cumplir la legislación, normativa o proceso legal aplicable, incluido con fines legales, fiscales o contables, o en respuesta a un requerimiento gubernamental ejecutable; (ii) prevenir daños graves a cualquier persona o a bienes; (iii) detectar, prevenir o abordar de otro modo fraudes u otras actividades ilegales; o (iv) hacer cumplir nuestras condiciones, o proteger los derechos, bienes, seguridad o protección de Anthropic, nuestros usuarios u otros.
+Publicaciones de investigación: Podemos publicar hallazgos agregados, desidentificados o anonimizados de nuestras investigaciones, incluidas investigaciones sobre cómo se utilizan nuestros Servicios e investigaciones sobre la seguridad de la IA.
+Con el consentimiento del interesado: Anthropic también podrá comunicar datos personales cuando así lo autorice o indique el interesado, también como parte de nuestros Servicios.
+Puede encontrar información sobre los terceros contratados por Anthropic para asistir en el tratamiento de datos personales recogidos aquí.
+
+4. Derechos y Opciones
+En función de su lugar de residencia y de la legislación aplicable, usted puede tener ciertos derechos con respecto a sus datos personales, conforme se describe más adelante. Tenga en cuenta que estos derechos son limitados y que el proceso para dar curso a sus solicitudes en relación con nuestros datos de entrenamiento es complejo. También podremos rechazar una solicitud si existe un motivo legal. No obstante, procuramos dar prioridad a la protección de los datos personales y cumplimos toda la normativa aplicable en materia de privacidad.
+
+Para ejercer sus derechos, usted o un representante autorizado pueden enviar una solicitud poniéndose en contacto con nosotros. Una vez recibida su solicitud, podremos verificarla solicitando información para confirmar su identidad (por ejemplo, dirección de correo electrónico, datos de facturación). Cuando un representante de un tercero presente una solicitud en nombre de un interesado, requeriremos prueba de la autorización para actuar en nombre del interesado.
+
+Responderemos a su solicitud dentro del plazo exigido por la legislación de protección de datos que le sea aplicable. Por ejemplo, cuando sea de aplicación el RGPD de la UE o el de Reino Unido, responderemos en el plazo de un mes natural desde la recepción de una solicitud verificable, y cuando su solicitud sea compleja o haya realizado varias solicitudes en un plazo breve, podremos ampliar dicho plazo hasta dos meses adicionales. Cuando otra legislación le sea aplicable y establezca un plazo diferente, responderemos dentro de dicho plazo. También podrá recurrir la denegación de una solicitud enviando un correo electrónico a privacy@anthropic.com. Anthropic no discriminará en función del ejercicio de sus derechos de privacidad. A continuación, incluimos una lista de sus posibles derechos, en función de la legislación aplicable en su país de residencia.
+
+Derecho de información: el derecho a conocer los datos personales que Anthropic trata en relación con usted, incluidas las categorías de datos, las categorías de fuentes, los fines empresariales o comerciales de la recogida y las categorías de terceros a quienes se comunican.
+Acceso y portabilidad de los datos: el derecho a solicitar una copia de los datos personales que Anthropic trata en relación con usted, sujeto a ciertas excepciones y condiciones. En algunos casos, en función de la legislación aplicable, tendrá derecho a portar sus datos.
+Supresión: el derecho a solicitar que eliminemos los datos personales que Anthropic haya recogido sobre usted al utilizar nuestros Servicios, sujeto a ciertas excepciones. También puede eliminar conversaciones individuales, que se eliminarán inmediatamente de su historial de conversaciones y se borrarán automáticamente de nuestro backend en un plazo de 30 días. Puede obtener más información aquí.
+Rectificación: el derecho a solicitar que Anthropic rectifique los datos personales inexactos que le conciernan, sujeto a ciertas excepciones. Tenga en cuenta que no podemos garantizar la precisión objetiva de los Outputs. Si los Outputs contienen datos fácticos inexactos relacionados con usted, puede enviar una solicitud y procuraremos corregir esta información. No obstante, debido a la complejidad técnica de nuestros grandes modelos de lenguaje, no siempre será posible.
+Oposición: el derecho a oponerse al tratamiento de sus datos personales, incluida la elaboración de perfiles por motivos de interés público o legítimo. Dejaremos de tratar los datos personales en caso de oposición, a menos que demostremos motivos legítimos imperiosos para el tratamiento que prevalezcan sobre sus intereses, derechos y libertades, o para el reconocimiento, ejercicio o defensa de reclamaciones judiciales. Si utilizamos sus datos para actividades de marketing directo, puede oponerse y dejar de recibir dichos mensajes utilizando el enlace para darse de baja que aparece en las comunicaciones.
+Limitación: el derecho a limitar el tratamiento de sus datos personales en determinadas circunstancias.
+Retirada del consentimiento: cuando el tratamiento de sus datos personales por parte de Anthropic se base en el consentimiento, según la tabla del apartado 2, usted tendrá derecho a retirarlo. Por ejemplo, puede desconectar la integración de su aplicación de salud y retirar su consentimiento en su configuración. La retirada del consentimiento no afectará a la licitud del tratamiento basado en el consentimiento previo a su retirada.
+Toma de decisiones automatizada: Anthropic no toma decisiones basadas únicamente en el tratamiento automatizado o la elaboración de perfiles de forma que produzcan un efecto jurídico (es decir, que afecten a sus derechos) o que le afecten significativamente de forma similar (por ejemplo, que afecten significativamente a su situación económica o a su capacidad para acceder a bienes o servicios esenciales).
+Venta y marketing selectivo de productos y servicios de Anthropic: Anthropic no “vende” sus datos personales tal y como se define este término en la normativa aplicable. Puede optar por no compartir sus datos personales para publicidad dirigida a promocionar nuestros productos y servicios, y respetaremos los controles de privacidad globales. Puede obtener más información aquí.
+Anthropic le proporciona acceso a una variedad de herramientas para ayudarle a gestionar sus datos. Puede acceder a ellas en su Configuración de Privacidad.
+
+5. Transferencias internacionales de datos
+Anthropic es una empresa global y, cuando usted accede a nuestros Servicios, sus datos personales son transferidos a nuestros servidores en Estados Unidos o a otros países fuera del Espacio Económico Europeo (“EEE”) y del Reino Unido para los fines indicados en el apartado 2 de esta Política de Privacidad, por ejemplo, para prestarle el Servicio, entrenar nuestros modelos o realizar investigaciones. Puede ser que usted nos proporcione directamente sus datos personales o que se trate de una transferencia realizada por terceros o por nosotros mismos. Puede encontrar más detalles sobre las filiales y los terceros a los que transferimos datos, incluidas sus ubicaciones, en nuestro Trust Center.
+
+Cuando Anthropic transfiere los datos fuera del EEE o del Reino Unido, nos aseguramos de que el nivel de protección de datos sea adecuado con base en:
+
+Decisiones de adecuación. Decisiones de la Comisión Europea en virtud del artículo 45 RGPD (o decisiones equivalentes en virtud de otras disposiciones), reconociendo que un país fuera del EEE ofrece un nivel adecuado de protección de datos. Tal y como se explica en el apartado “Recogida de datos personales”, transferimos sus datos a algunos países cubiertos por decisiones de adecuación, como los países con decisiones de adecuación de la UE enumerados aquí y los países con decisiones de adecuación del Reino Unido enumerados aquí; o
+Cláusulas tipo. La Comisión Europea ha aprobado cláusulas contractuales en virtud del artículo 46 RGPD que permiten a las empresas del EEE transferir datos fuera del EEE. Dichas cláusulas (y su equivalente aprobado para el Reino Unido y Suiza) se denominan cláusulas tipo. Nos basamos en cláusulas tipo para transferir la información descrita en el apartado “Recogida de datos personales” a determinadas filiales y terceros en países sin decisión de adecuación.
+En determinadas situaciones, nos acogemos a las excepciones previstas en la legislación aplicable en materia de protección de datos para transferir información a un tercer país. Si tiene preguntas sobre las transferencias internacionales o las garantías que aplicamos, puede ponerse en contacto con nosotros.
+
+6. Conservación y ciclo de vida de los datos
+Anthropic conserva sus datos personales durante el tiempo que sea razonablemente necesario para los fines y conforme a los criterios descritos en esta Política de Privacidad y explicados con más detalle en nuestro Centro de Privacidad.
+
+Cuando ya no necesitemos los datos personales recogidos, nosotros y nuestros proveedores de servicios llevaremos a cabo los procedimientos necesarios para destruirlos, eliminarlos, borrarlos o convertirlos a un formato anónimo, según lo permita o exija la legislación aplicable.
+
+Información agregada o anonimizada
+Aplicamos técnicas de agregación y anonimización cuando resulta apropiado como parte de nuestras prácticas de minimización de datos. Por ejemplo, podemos tratar datos personales de forma agregada o anonimizada para analizar y mejorar la eficacia de nuestros Servicios, incluida la realización de análisis, realizar investigaciones, estudiar el comportamiento de los usuarios y entrenar nuestros modelos de IA. Por ejemplo:
+
+Cuando usted envía Comentarios, disociamos los Inputs y Outputs de su ID de usuario para utilizarlos en el entrenamiento y la mejora de nuestros modelos.
+Si nuestros sistemas señalan Inputs u Outputs por contenido dañino o por una posible violación de nuestras políticas, disociamos el contenido de su ID de usuario para entrenar nuestros modelos de clasificación de confianza y seguridad y los modelos generativos internos. Sin embargo, podemos volver a identificar los Inputs y Outputs para garantizar el cumplimiento de nuestras Condiciones de Servicio o nuestra Política de uso por parte del usuario, si fuera necesario. Para mejorar la experiencia del usuario, podemos analizar y agregar datos generales de uso y comportamiento. Esta información no identifica usuarios individuales.
+Cuando los datos estén anonimizados, Anthropic mantendrá y utilizará dicha información en su forma anonimizada y no tratará de volver a identificarla, salvo en los casos permitidos por la ley.
+Controles de seguridad relativos a nuestro tratamiento de datos personales
+Aplicamos medidas de seguridad técnicas y organizativas adecuadas, diseñadas para proteger los datos personales contra la pérdida, el uso indebido y el acceso no autorizado, la divulgación, la alteración o la destrucción.
+
+7. Menores
+Nuestros Servicios no están dirigidos a menores de 18 años y no recopilamos, vendemos ni compartimos conscientemente ninguna información de menores de edad. Disponemos de medidas para detectar y eliminar a menores de nuestros Servicios. Si tiene conocimiento de que un menor de 18 años nos ha proporcionado datos personales mientras utilizaba nuestros Servicios, envíenos un correo electrónico a privacy@anthropic.com. Investigaremos el asunto y, si procede, eliminaremos los datos personales.
+
+8. Cambios en nuestra Política de Privacidad
+Anthropic puede actualizar esta Política de Privacidad. Le notificaremos cualquier cambio significativo en esta Política de Privacidad, en su caso, y actualizaremos la fecha de entrada en vigor en la parte superior de https://www.anthropic.com/legal/privacy. Puede ver un resumen de los cambios en la política de privacidad y versiones anteriores en nuestro Centro de Privacidad.
+
+9. Información de Contacto
+Si reside en el Espacio Económico Europeo (EEE), Reino Unido o Suiza (la “Región Europea”), el responsable del tratamiento de sus datos personales es Anthropic Ireland, Limited. Si reside fuera de la Región Europea, el responsable del tratamiento es Anthropic PBC.
+
+Si tiene alguna duda sobre esta Política de Privacidad o si tiene alguna pregunta, queja o solicitud sobre sus datos personales, puede ponerse en contacto con nosotros en las siguientes direcciones:
+
+Anthropic PBC, con domicilio social en 548 Market St, PMB 90375, San Francisco, CA 94104 (Estados Unidos).
+Anthropic Ireland, Limited, con domicilio social en 6th Floor, South Bank House, Barrow Street, Dublin 4, D04 TR29 (Irlanda).
+Puede enviarnos un correo electrónico a privacy@anthropic.com y contactar con nuestro Delegado de Protección de Datos en dpo@anthropic.com.
+
+Tenga en cuenta que, en virtud de la legislación de muchos países, tiene derecho a presentar una reclamación ante la autoridad competente del lugar en el que vive o trabaja. Aquí dispone de una lista completa de los datos de contacto de las autoridades competentes de la UE. Si reside o trabaja en el Reino Unido, tiene derecho a presentar una reclamación ante la Oficina del Comisionado de Información del Reino Unido. Si reside en Brasil, tiene derecho a presentar una reclamación ante la Autoridad Brasileña de Protección de Datos (ANPD). Si reside en Australia, tiene derecho a presentar una reclamación ante la Oficina del Comisionado de Información de Australia.
+
+10. Bases de legitimación para el tratamiento
+Finalidad	Tipo de Datos	Base jurídica
+Proporcionar, mantener y facilitar cualquier producto y servicio con respecto a su cuenta de Anthropic, que se rigen por nuestras Condiciones de Servicio.	
+Datos identificativos y de contacto
+Información de pago
+Comentarios
+Inputs y Outputs
+Información Técnica
+Contractual
+Para ofrecer, mantener y facilitar servicios y funciones opcionales que mejoren la operatividad de la plataforma y la experiencia del usuario.	
+Datos de identidad y de contacto.
+Comentarios
+Datos de participación en estudios
+Insumos y resultados
+Información Técnica
+Consentimiento (por ejemplo, para la ubicación precisa del dispositivo o para integraciones con aplicaciones de salud)
+Interés legítimo
+Es de nuestro interés legítimo, así como del de nuestros usuarios, ampliar las funciones del producto y proporcionar servicios [adicionales/opcionales] que mejoren la funcionalidad de la plataforma y la experiencia del usuario.
+Para proporcionarle actualizaciones del servicio, comunicaciones y recomendaciones personalizadas sobre nuestros Servicios que puedan ser de su interés	
+Datos identificativos y de contacto
+Información de comunicación
+Información técnica
+Datos de participación en estudios
+Cuando sea necesario para ejecutar un contrato suscrito con usted, como el tratamiento de sus datos de contacto para enviarle un anuncio técnico sobre los Servicios
+Su consentimiento, cuando lo solicitemos, para tratar sus datos personales con la finalidad específica que le comuniquemos, como el tratamiento de sus datos de contacto para enviarle determinadas comunicaciones de marketing
+Interés legítimo.
+Es de nuestro interés legítimo promocionar nuestros Servicios que puedan ser de su interés, incluido el envío de marketing directo.
+Crear y administrar su cuenta de Anthropic.	
+Datos identificativos y de contacto
+Información de pago
+Comentarios
+Datos de verificación
+Contractual
+Facilitar los pagos de los productos y servicios prestados por Anthropic.	
+Datos identificativos y de contacto
+Información de pago
+Contractual
+Prevenir e investigar fraudes, abusos y violaciones de nuestra Política de uso, actividades ilegales o delictivas, el acceso o uso no autorizado de datos personales o de los sistemas y redes de Anthropic; proteger nuestros derechos y los derechos de terceros; proteger su seguridad o la de cualquier otra persona; y cumplir obligaciones legales, administrativas y de política institucional.	
+Datos identificativos y de contacto
+Información de pago
+Inputs y Outputs
+Información técnica
+Datos de verificación
+Datos de participación en estudios
+Consentimiento (por ejemplo, cuando usted decide verificar su identidad utilizando datos biométricos)
+Obligación legal
+Interés legítimo
+Intereses vitales
+Es de nuestro interés legítimo proteger nuestro negocio, a nuestros empleados y a nuestros usuarios frente a actividades ilegales, conductas inapropiadas o violaciones de los términos y condiciones que pudieran ser perjudiciales. También tenemos el deber de cooperar con las autoridades.
+Investigar y resolver disputas	
+Datos identificativos y de contacto
+Información de pago
+Inputs y Outputs
+Comentarios
+Información Técnica
+Datos de participación en estudios
+Información de comunicación
+Obligación legal
+Interés legítimo
+Es de nuestro interés legítimo comprender plenamente las reclamaciones de los clientes y procurar resolverlas con el fin de mejorar la satisfacción de los usuarios. También tenemos una obligación legal en algunos casos.
+Investigar y resolver problemas de seguridad.	
+Datos identificativos y de contacto
+Información de pago
+Comentarios
+Información técnica
+Inputs y Outputs
+Datos de participación en estudios
+Información de comunicación
+Datos de verificación
+Obligación legal
+Interés legítimo
+Es de nuestro interés legítimo proteger los datos de los usuarios y nuestros sistemas frente a intrusiones o amenazas mediante la supervisión y una respuesta rápida. También tenemos la obligación legal de proporcionar medidas de seguridad adecuadas.
+Depurar, identificar y reparar errores que perjudican la funcionalidad existente.	
+Datos identificativos y de contacto
+Comentarios
+Información técnica
+Inputs y Outputs
+Interés legítimo
+Es de nuestro interés legítimo mantener el funcionamiento de nuestros servicios y en corregir rápidamente los problemas para garantizar una experiencia de usuario positiva que fomente la participación.
+Mejorar los Servicios y realizar investigaciones (excluyendo el entrenamiento de modelos).	
+Datos identificativos y de contacto
+Comentarios
+Datos de participación en estudios
+Información técnica
+Inputs y Outputs
+Investigación científica
+Interés legítimo
+Es de nuestro interés legítimo, así como del de nuestros usuarios evaluar el uso de los Servicios e incorporar y desarrollar nuevas funciones que mejoren la dirección y la prestación de los Servicios. Nuestra investigación también beneficia a la industria de la IA y a la sociedad: analiza la seguridad, el funcionamiento interno y el impacto social de los modelos de IA para garantizar que la inteligencia artificial tenga un impacto positivo en la sociedad a medida que se vuelve cada vez más avanzada y capaz.
+Mejorar los Servicios y realizar investigaciones (incluyendo el entrenamiento de modelos). Consulte nuestra Política de Privacidad para No Usuarios para obtener más información sobre los datos que utilizamos para entrenar nuestros modelos y las diferentes fases de desarrollo.	
+Comentarios
+Inputs y Outputs
+Datos de participación en estudios
+Datos proporcionados a través del Programa de Socios de Desarrollo
+Investigación científica
+Consentimiento
+Interés legítimo
+Es de nuestro interés legítimo, así como del de nuestros usuarios evaluar el uso de los Servicios e incorporar y desarrollar nuevas funciones que mejoren la dirección y la prestación de los Servicios. Nuestra investigación también beneficia a la industria de la IA y a la sociedad: analiza la seguridad, el funcionamiento interno y el impacto social de los modelos de IA para garantizar que la inteligencia artificial tenga un impacto positivo en la sociedad a medida que se vuelve cada vez más avanzada y capaz.
+Hacer cumplir nuestras Condiciones de Servicio, así como términos y acuerdos similares, incluida nuestra Política de uso.	
+Datos identificativos y de contacto
+Inputs y Outputs
+Información técnica
+Datos de participación en estudios
+Datos de verificación
+Contractual
+Interés legítimo
+En determinadas circunstancias ajenas al contrato suscrito con usted, podemos basarnos en el interés legítimo. Es de nuestro interés legítimo hacer cumplir las normas y políticas que rigen el uso de nuestros servicios para mantener la funcionalidad prevista y el valor para los usuarios. Nuestro objetivo es proporcionar una plataforma segura y útil.
+Uso de datos personales
+11. Divulgación Suplementaria Regional
+Información adicional para residentes en Canadá
+Esta comunicación suplementaria contiene información adicional relevante para los residentes de Canadá. Su contenido debe leerse junto con el resto de nuestra Política de Privacidad. En caso de conflicto con nuestra Política de Privacidad, la información adicional prevalecerá en relación con los residentes de Canadá.
+
+Consentimiento. Al dar su consentimiento expreso a esta Política de Privacidad, usted confirma que ha leído, entendido y consentido la recogida, el uso, el tratamiento y la comunicación de sus datos personales de acuerdo con esta Política de Privacidad y entiende que, en los territorios en los que está disponible, Anthropic también se acoge a otras bases de legitimación, tal y como se establece más detalladamente en esta Política. Únicamente recogeremos, utilizaremos y comunicaremos sus datos personales con su consentimiento, salvo que la ley permita o exija lo contrario. Su consentimiento puede ser expreso o tácito, dependiendo de las circunstancias y de la sensibilidad de la información. Puede retirar su consentimiento en cualquier momento, sujeto a restricciones legales o contractuales y a un preaviso razonable.
+
+Transferencias internacionales. Al proporcionarnos sus datos personales, usted reconoce y acepta que sus datos personales puedan ser transferidos o comunicados a otros países para su tratamiento y almacenamiento fuera de Canadá, incluidos los Estados Unidos y los países que figuran en nuestra Lista de subencargados del tratamiento, donde la normativa en materia de protección de datos puede ser menos estricta que la aplicable en su país. Además, podemos comunicar sus datos personales en estos países en el marco de procesos legales o cuando consideremos de buena fe que la ley exige o permite dicha revelación.
+
+Contacto. Si tiene alguna pregunta o comentario sobre el tratamiento de sus datos personales o en relación con el ejercicio de sus derechos en virtud del apartado 4 (“Derechos y opciones”), escríbanos a privacy@anthropic.com.
+
+Información adicional para residentes en Brasil
+Esta comunicación suplementaria contiene información adicional relevante para los residentes de Brasil. Su contenido debe leerse junto con el resto de nuestra Política de Privacidad. En caso de conflicto con nuestra Política de Privacidad, la información adicional prevalecerá en relación con los residentes de Brasil.
+
+Bases de legitimación. Dependiendo de la finalidad específica del tratamiento, podemos basarnos en motivos diferentes de los enumerados en el apartado 2, siempre que lo permita la Ley General de Protección de Datos (LGPD) brasileña y de conformidad con la misma. Por ejemplo, podemos invocar el “ejercicio de derechos” para tratar datos personales asociados con reclamaciones de clientes y para hacer cumplir nuestras Condiciones de Servicio, así como términos y acuerdos similares, incluida nuestra Política de uso.
+
+Derechos de los interesados. La LGPD le confiere determinados derechos en relación con sus datos personales, que difieren de los enumerados en el apartado 4. Responderemos a sus solicitudes para ejercer los derechos indicados a continuación de conformidad con la legislación aplicable:
+
+Confirmación de si se están tratando sus datos. Tiene derecho a obtener confirmación sobre si Anthropic está tratando sus datos.
+Acceso a sus datos. Tiene derecho a saber los datos personales que Anthropic está tratando en relación con usted.
+Rectificación de datos incompletos, inexactos u obsoletos. Tiene derecho a solicitar la corrección de sus datos que sean incompletos, inexactos u obsoletos.
+Anonimización, bloqueo o supresión de datos. Tiene derecho a solicitar la anonimización, el bloqueo o la supresión de los datos que sean innecesarios, excesivos o cuyo tratamiento sea contrario a la legislación aplicable.
+Portabilidad de datos personales a un tercero. Tiene derecho a solicitar la portabilidad de sus datos a un tercero, siempre que no suponga una vulneración de nuestros secretos comerciales.
+Información de entidades públicas y privadas con las que compartimos datos. Tiene derecho a solicitar información de las entidades públicas y privadas con las que hemos compartido sus datos.
+Información sobre la posibilidad de negar su consentimiento y las respectivas consecuencias, en su caso.
+Retirada de consentimiento. Tiene derecho a retirar su consentimiento. Este trámite se realizará de forma gratuita.
+Solicitud de revisión de las decisiones tomadas únicamente sobre la base del tratamiento automatizado de datos personales.
+Tenga en cuenta que estos derechos no son absolutos y pueden no ser aplicables en determinadas circunstancias. Por ejemplo, en ciertos casos podremos seguir tratando y conservando los datos, con independencia de su solicitud de supresión, oposición, bloqueo o anonimización, para cumplir obligaciones legales, contractuales y reglamentarias, así como para salvaguardar y ejercer derechos, también en procedimientos judiciales, administrativos y de arbitraje y en otros casos previstos por la ley.
+
+Transferencias internacionales de datos. Usted reconoce que Anthropic es una empresa con sede en Estados Unidos. Cualquier información que tengamos sobre usted será transferida, utilizada, tratada y almacenada en Estados Unidos y otros países y territorios que pueden no tener leyes de privacidad o protección de datos equivalentes a las de su país o territorio. Para el correcto funcionamiento de los Servicios, Anthropic necesita realizar transferencias internacionales de datos personales. En el caso de Brasil, nos basaremos en cláusulas contractuales tipo (CCT) para nuestras transferencias de datos cuando sea necesario y en aquellos casos en que no estén cubiertas por una decisión de adecuación. Estas CCT han sido aprobadas por la Autoridad Nacional de Protección de Datos (ANPD), que es la "autoridad de control competente" para dichas transferencias, de conformidad con la legislación brasileña de protección de datos. Puede consultar las CCT adoptadas por la ANPD aquí.

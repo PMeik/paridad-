@@ -1,0 +1,18 @@
+{
+  "openai": {
+    "eu_es": {
+      "url": "https://openai.com/es-ES/policies/eu-privacy-policy/",
+      "captured": "2026-06-20",
+      "language": "es-ES",
+      "controller": "OpenAI Ireland Limited",
+      "jurisdiction": "EEA + UK + Switzerland"
+    },
+    "row_es": {
+      "url": "https://openai.com/es-ES/policies/row-privacy-policy/",
+      "captured": "2026-06-20",
+      "language": "es-ES",
+      "controller": "OpenAI OpCo, LLC",
+      "jurisdiction": "Rest of World (includes Chile, Brazil, LatAm)"
+    }
+  }
+}

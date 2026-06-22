@@ -1,0 +1,1424 @@
+{
+  "_meta": {
+    "modelo_juez": "claude-haiku-4-5-20251001",
+    "modelo_embeddings": "paraphrase-multilingual-mpnet-base-v2",
+    "k_parrafos": 7,
+    "servicios": [
+      "openai",
+      "anthropic"
+    ],
+    "locales": [
+      "eu",
+      "brasil",
+      "row"
+    ],
+    "n_requisitos": 6,
+    "comparacion": "es vs es (consistencia lingüística entre locales)"
+  },
+  "celdas": [
+    {
+      "requisito_id": "R03",
+      "requisito": "El titular tiene derecho a no ser objeto de una decisión basada exclusivamente en el tratamiento automatizado, incluida la elaboración de perfiles, que produzca efectos jurídicos o le afecte significativamente.",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 22",
+      "servicio": "openai",
+      "locale": "eu",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "La política no menciona ni garantiza el derecho a no ser objeto de decisiones basadas exclusivamente en tratamiento automatizado o elaboración de perfiles que produzcan efectos jurídicos o afecten significativamente. Solo enumera derechos generales (acceso, eliminación, rectificación, portabilidad, limitación, oposición) pero no aborda específicamente decisiones automatizadas o profiling.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.5865345001220703
+        },
+        {
+          "score": 0.5560042262077332
+        },
+        {
+          "score": 0.5380017757415771
+        },
+        {
+          "score": 0.5322512984275818
+        },
+        {
+          "score": 0.5221131443977356
+        },
+        {
+          "score": 0.512123703956604
+        },
+        {
+          "score": 0.5059304237365723
+        }
+      ],
+      "tiempo_seg": 2.33
+    },
+    {
+      "requisito_id": "R04",
+      "requisito": "Cuando hay decisiones automatizadas, la ley garantiza intervención humana significativa (no meramente formal) por parte del responsable del tratamiento.",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 22(3)",
+      "servicio": "openai",
+      "locale": "eu",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "El texto no menciona decisiones automatizadas ni intervención humana en tales contextos. Solo describe bases legales para tratamiento de datos (consentimiento, intereses legítimos, obligaciones legales) sin abordar el derecho específico a intervención humana significativa en decisiones automatizadas.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.5296919941902161
+        },
+        {
+          "score": 0.5236448645591736
+        },
+        {
+          "score": 0.5064319372177124
+        },
+        {
+          "score": 0.5005987286567688
+        },
+        {
+          "score": 0.4666762948036194
+        },
+        {
+          "score": 0.46580758690834045
+        },
+        {
+          "score": 0.4627436101436615
+        }
+      ],
+      "tiempo_seg": 1.68
+    },
+    {
+      "requisito_id": "R05",
+      "requisito": "El titular tiene derecho a recibir información significativa sobre la lógica aplicada, así como sobre la importancia y las consecuencias previstas del tratamiento automatizado (explicabilidad).",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Arts. 13(2)(f) / 14(2)(g)",
+      "servicio": "openai",
+      "locale": "eu",
+      "fallo": "partial",
+      "seccion": "5",
+      "evidencia": "Para obtener información sobre cómo recogemos y utilizamos la información de entrenamiento",
+      "confidence": 0.35,
+      "razon": "La policy menciona referencias a información sobre modelos y entrenamiento, pero no proporciona explicación directa sobre la lógica, importancia y consecuencias del tratamiento automatizado. Solo remite a documentos externos sin garantizar que el usuario EU reciba esta información de forma significativa y comprensible según GDPR Art. 13/14.",
+      "needs_human_review": true,
+      "parrafos_vistos": [
+        {
+          "score": 0.5718981027603149
+        },
+        {
+          "score": 0.5182516574859619
+        },
+        {
+          "score": 0.5167087316513062
+        },
+        {
+          "score": 0.5117515921592712
+        },
+        {
+          "score": 0.49479132890701294
+        },
+        {
+          "score": 0.4857345223426819
+        },
+        {
+          "score": 0.47745558619499207
+        }
+      ],
+      "tiempo_seg": 2.22
+    },
+    {
+      "requisito_id": "R06",
+      "requisito": "La ley regula las transferencias internacionales de datos personales mediante mecanismos de adecuación, garantías apropiadas (cláusulas tipo) o normas corporativas vinculantes (BCR).",
+      "dimension": "3. Transferencia internacional",
+      "capa": "B",
+      "articulo_estandar": "GDPR Arts. 44-49",
+      "servicio": "openai",
+      "locale": "eu",
+      "fallo": "full",
+      "seccion": "10",
+      "evidencia": "nos basamos en mecanismos de transferencia válidos para cumplir con la legislación aplicable",
+      "confidence": 0.92,
+      "razon": "La política explícitamente menciona uso de decisiones de adecuación (Art. 45 RGPD) y Cláusulas Contractuales Tipo (Art. 46 RGPD) para transferencias internacionales, aplicable a usuarios UE/EEE. Ofrece garantías concretas y acceso a documentación.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.713741660118103
+        },
+        {
+          "score": 0.6351795196533203
+        },
+        {
+          "score": 0.59361732006073
+        },
+        {
+          "score": 0.5842573642730713
+        },
+        {
+          "score": 0.5689808130264282
+        },
+        {
+          "score": 0.5628974437713623
+        },
+        {
+          "score": 0.5559305548667908
+        }
+      ],
+      "tiempo_seg": 2.56
+    },
+    {
+      "requisito_id": "R07",
+      "requisito": "La ley exige que las empresas extranjeras designen un representante en la jurisdicción local con responsabilidad propia (no solo un contacto procesal).",
+      "dimension": "3. Transferencia internacional",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 27",
+      "servicio": "openai",
+      "locale": "eu",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "La policy designa a OpenAI Ireland Limited como responsable del tratamiento, pero no designa un representante local independiente con responsabilidad propia según exige el artículo 27 RGPD. Una entidad responsable no es equivalente a un representante con responsabilidad propia distinta.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.48424845933914185
+        },
+        {
+          "score": 0.4841883182525635
+        },
+        {
+          "score": 0.478515088558197
+        },
+        {
+          "score": 0.47165006399154663
+        },
+        {
+          "score": 0.4702790379524231
+        },
+        {
+          "score": 0.4435235261917114
+        },
+        {
+          "score": 0.4343646764755249
+        }
+      ],
+      "tiempo_seg": 2.08
+    },
+    {
+      "requisito_id": "R10",
+      "requisito": "La ley obliga a los proveedores de sistemas de IA generativa a marcar las salidas como contenido sintético en formato legible por máquina.",
+      "dimension": "4. Contenido sintético y deepfakes",
+      "capa": "A",
+      "articulo_estandar": "EU AI Act Art. 50(2)",
+      "servicio": "openai",
+      "locale": "eu",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "El texto no menciona ninguna obligación o garantía de marcar salidas de IA generativa como contenido sintético en formato legible por máquina. La política trata sobre recopilación y uso de datos, pero no aborda el etiquetado de outputs generados por sistemas de IA.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.4211781620979309
+        },
+        {
+          "score": 0.4127635359764099
+        },
+        {
+          "score": 0.4035392701625824
+        },
+        {
+          "score": 0.4028227925300598
+        },
+        {
+          "score": 0.40269431471824646
+        },
+        {
+          "score": 0.39483213424682617
+        },
+        {
+          "score": 0.38739246129989624
+        }
+      ],
+      "tiempo_seg": 1.9
+    },
+    {
+      "requisito_id": "R03",
+      "requisito": "El titular tiene derecho a no ser objeto de una decisión basada exclusivamente en el tratamiento automatizado, incluida la elaboración de perfiles, que produzca efectos jurídicos o le afecte significativamente.",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 22",
+      "servicio": "openai",
+      "locale": "brasil",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "La política no menciona explícitamente el derecho a no ser objeto de decisiones automatizadas exclusivas con efectos jurídicos significativos, requisito específico de la LGPD brasileña. Los derechos listados (acceso, rectificación, eliminación, portabilidad) no abordan esta protección.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.5969592332839966
+        },
+        {
+          "score": 0.5819350481033325
+        },
+        {
+          "score": 0.546122670173645
+        },
+        {
+          "score": 0.5290015339851379
+        },
+        {
+          "score": 0.49285951256752014
+        },
+        {
+          "score": 0.4686364233493805
+        },
+        {
+          "score": 0.46833640336990356
+        }
+      ],
+      "tiempo_seg": 1.95
+    },
+    {
+      "requisito_id": "R04",
+      "requisito": "Cuando hay decisiones automatizadas, la ley garantiza intervención humana significativa (no meramente formal) por parte del responsable del tratamiento.",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 22(3)",
+      "servicio": "openai",
+      "locale": "brasil",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "La policy no menciona intervención humana significativa en decisiones automatizadas para usuarios brasileños. Solo enumera derechos genéricos sin especificar garantías de intervención humana requeridas por LGPD Art. 20.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.4424462616443634
+        },
+        {
+          "score": 0.4308265447616577
+        },
+        {
+          "score": 0.41517558693885803
+        },
+        {
+          "score": 0.40225857496261597
+        },
+        {
+          "score": 0.38990652561187744
+        },
+        {
+          "score": 0.38709551095962524
+        },
+        {
+          "score": 0.3843812942504883
+        }
+      ],
+      "tiempo_seg": 1.52
+    },
+    {
+      "requisito_id": "R05",
+      "requisito": "El titular tiene derecho a recibir información significativa sobre la lógica aplicada, así como sobre la importancia y las consecuencias previstas del tratamiento automatizado (explicabilidad).",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Arts. 13(2)(f) / 14(2)(g)",
+      "servicio": "openai",
+      "locale": "brasil",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "El texto no ofrece información sobre la lógica, importancia o consecuencias del tratamiento automatizado específicamente para usuarios en Brasil. Solo menciona controles genéricos y remite a artículos de ayuda externos sin garantizar explicabilidad del procesamiento automatizado conforme LGPD Art. 20.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.5868592858314514
+        },
+        {
+          "score": 0.5425873398780823
+        },
+        {
+          "score": 0.5104542970657349
+        },
+        {
+          "score": 0.47815263271331787
+        },
+        {
+          "score": 0.46666696667671204
+        },
+        {
+          "score": 0.45734280347824097
+        },
+        {
+          "score": 0.44478949904441833
+        }
+      ],
+      "tiempo_seg": 1.9
+    },
+    {
+      "requisito_id": "R06",
+      "requisito": "La ley regula las transferencias internacionales de datos personales mediante mecanismos de adecuación, garantías apropiadas (cláusulas tipo) o normas corporativas vinculantes (BCR).",
+      "dimension": "3. Transferencia internacional",
+      "capa": "B",
+      "articulo_estandar": "GDPR Arts. 44-49",
+      "servicio": "openai",
+      "locale": "brasil",
+      "fallo": "partial",
+      "seccion": "Sección 4 y párrafo sobre transferencias internacionales",
+      "evidencia": "solo transferimos esos datos de conformidad con mecanismos de transferencia legalmente válidos",
+      "confidence": 0.45,
+      "razon": "La policy menciona mecanismos de transferencia legalmente válidos pero no especifica cuáles (adecuación, cláusulas tipo o BCR). No ofrece garantías concretas aplicables específicamente al usuario brasileño. La mención genérica no satisface el requisito de protección robusta para transferencias internacionales bajo LGPD.",
+      "needs_human_review": true,
+      "parrafos_vistos": [
+        {
+          "score": 0.573208212852478
+        },
+        {
+          "score": 0.5473072528839111
+        },
+        {
+          "score": 0.5418776869773865
+        },
+        {
+          "score": 0.5347138047218323
+        },
+        {
+          "score": 0.5311819911003113
+        },
+        {
+          "score": 0.5134191513061523
+        },
+        {
+          "score": 0.5119516253471375
+        }
+      ],
+      "tiempo_seg": 2.31
+    },
+    {
+      "requisito_id": "R07",
+      "requisito": "La ley exige que las empresas extranjeras designen un representante en la jurisdicción local con responsabilidad propia (no solo un contacto procesal).",
+      "dimension": "3. Transferencia internacional",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 27",
+      "servicio": "openai",
+      "locale": "brasil",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "La policy no designa un representante legal con responsabilidad propia en Brasil. Solo menciona designación de responsable para EEE/Suiza y contacto genérico (dsar@openai.com) sin identificar representante brasileño.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.5488754510879517
+        },
+        {
+          "score": 0.47091251611709595
+        },
+        {
+          "score": 0.4669651985168457
+        },
+        {
+          "score": 0.4535546600818634
+        },
+        {
+          "score": 0.3996458649635315
+        },
+        {
+          "score": 0.36661961674690247
+        },
+        {
+          "score": 0.3548661470413208
+        }
+      ],
+      "tiempo_seg": 1.53
+    },
+    {
+      "requisito_id": "R10",
+      "requisito": "La ley obliga a los proveedores de sistemas de IA generativa a marcar las salidas como contenido sintético en formato legible por máquina.",
+      "dimension": "4. Contenido sintético y deepfakes",
+      "capa": "A",
+      "articulo_estandar": "EU AI Act Art. 50(2)",
+      "servicio": "openai",
+      "locale": "brasil",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "El texto no menciona ninguna obligación de marcar salidas como contenido sintético en formato legible por máquina, ni especifica protecciones para usuarios brasileños respecto a este requisito específico de la LGPD.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.4076268672943115
+        },
+        {
+          "score": 0.4046933650970459
+        },
+        {
+          "score": 0.3782126307487488
+        },
+        {
+          "score": 0.35730260610580444
+        },
+        {
+          "score": 0.3568715453147888
+        },
+        {
+          "score": 0.354365736246109
+        },
+        {
+          "score": 0.3500584363937378
+        }
+      ],
+      "tiempo_seg": 1.59
+    },
+    {
+      "requisito_id": "R03",
+      "requisito": "El titular tiene derecho a no ser objeto de una decisión basada exclusivamente en el tratamiento automatizado, incluida la elaboración de perfiles, que produzca efectos jurídicos o le afecte significativamente.",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 22",
+      "servicio": "openai",
+      "locale": "row",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "La policy no menciona explícitamente el derecho a no ser objeto de decisiones basadas exclusivamente en tratamiento automatizado o elaboración de perfiles que produzcan efectos jurídicos. Solo menciona no vender datos para publicidad conductual, lo cual no cubre este derecho específico. Para un usuario chileno sin ley vigente aplicable, no hay garantía de este derecho en la policy.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.5969592332839966
+        },
+        {
+          "score": 0.5819350481033325
+        },
+        {
+          "score": 0.546122670173645
+        },
+        {
+          "score": 0.5290015339851379
+        },
+        {
+          "score": 0.49285951256752014
+        },
+        {
+          "score": 0.4686364233493805
+        },
+        {
+          "score": 0.46833640336990356
+        }
+      ],
+      "tiempo_seg": 2.27
+    },
+    {
+      "requisito_id": "R04",
+      "requisito": "Cuando hay decisiones automatizadas, la ley garantiza intervención humana significativa (no meramente formal) por parte del responsable del tratamiento.",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 22(3)",
+      "servicio": "openai",
+      "locale": "row",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "El texto no menciona explícitamente intervención humana significativa en decisiones automatizadas. Solo lista derechos genéricos (acceso, rectificación, eliminación) sin específicar protecciones contra automatización para usuarios de Chile.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.4424462616443634
+        },
+        {
+          "score": 0.4308265447616577
+        },
+        {
+          "score": 0.41517558693885803
+        },
+        {
+          "score": 0.40225857496261597
+        },
+        {
+          "score": 0.38990652561187744
+        },
+        {
+          "score": 0.38709551095962524
+        },
+        {
+          "score": 0.3843812942504883
+        }
+      ],
+      "tiempo_seg": 1.5
+    },
+    {
+      "requisito_id": "R05",
+      "requisito": "El titular tiene derecho a recibir información significativa sobre la lógica aplicada, así como sobre la importancia y las consecuencias previstas del tratamiento automatizado (explicabilidad).",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Arts. 13(2)(f) / 14(2)(g)",
+      "servicio": "openai",
+      "locale": "row",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "La policy no ofrece información sobre la lógica, importancia o consecuencias del tratamiento automatizado en modelos de IA para usuarios de LatAm no brasileños. Solo remite a artículos de ayuda externos sin garantizar acceso a explicabilidad del algoritmo.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.5868592858314514
+        },
+        {
+          "score": 0.5425873398780823
+        },
+        {
+          "score": 0.5104542970657349
+        },
+        {
+          "score": 0.47815263271331787
+        },
+        {
+          "score": 0.46666696667671204
+        },
+        {
+          "score": 0.45734280347824097
+        },
+        {
+          "score": 0.44478949904441833
+        }
+      ],
+      "tiempo_seg": 1.9
+    },
+    {
+      "requisito_id": "R06",
+      "requisito": "La ley regula las transferencias internacionales de datos personales mediante mecanismos de adecuación, garantías apropiadas (cláusulas tipo) o normas corporativas vinculantes (BCR).",
+      "dimension": "3. Transferencia internacional",
+      "capa": "B",
+      "articulo_estandar": "GDPR Arts. 44-49",
+      "servicio": "openai",
+      "locale": "row",
+      "fallo": "partial",
+      "seccion": "4",
+      "evidencia": "solo transferimos esos datos de conformidad con mecanismos de transferencia legalmente válidos",
+      "confidence": 0.35,
+      "razon": "La política menciona mecanismos de transferencia legalmente válidos pero no especifica cuáles (adecuación, cláusulas tipo, BCR). No detalla garantías concretas para usuarios de Chile específicamente. La mención de protecciones 'independientemente del lugar' no reemplaza mecanismos específicos requeridos por ley.",
+      "needs_human_review": true,
+      "parrafos_vistos": [
+        {
+          "score": 0.573208212852478
+        },
+        {
+          "score": 0.5473072528839111
+        },
+        {
+          "score": 0.5418776869773865
+        },
+        {
+          "score": 0.5347138047218323
+        },
+        {
+          "score": 0.5311819911003113
+        },
+        {
+          "score": 0.5134191513061523
+        },
+        {
+          "score": 0.5119516253471375
+        }
+      ],
+      "tiempo_seg": 2.18
+    },
+    {
+      "requisito_id": "R07",
+      "requisito": "La ley exige que las empresas extranjeras designen un representante en la jurisdicción local con responsabilidad propia (no solo un contacto procesal).",
+      "dimension": "3. Transferencia internacional",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 27",
+      "servicio": "openai",
+      "locale": "row",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "La policy no designa un representante legal con responsabilidad propia en Chile. Solo menciona un agente autorizado genérico para presentar solicitudes (dsar@openai.com) y designa responsable del tratamiento solo para EEE y Suiza, excluyendo explícitamente a usuarios de LatAm fuera de Brasil.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.5488754510879517
+        },
+        {
+          "score": 0.47091251611709595
+        },
+        {
+          "score": 0.4669651985168457
+        },
+        {
+          "score": 0.4535546600818634
+        },
+        {
+          "score": 0.3996458649635315
+        },
+        {
+          "score": 0.36661961674690247
+        },
+        {
+          "score": 0.3548661470413208
+        }
+      ],
+      "tiempo_seg": 1.62
+    },
+    {
+      "requisito_id": "R10",
+      "requisito": "La ley obliga a los proveedores de sistemas de IA generativa a marcar las salidas como contenido sintético en formato legible por máquina.",
+      "dimension": "4. Contenido sintético y deepfakes",
+      "capa": "A",
+      "articulo_estandar": "EU AI Act Art. 50(2)",
+      "servicio": "openai",
+      "locale": "row",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "La política de privacidad de OpenAI no menciona ni aborda la obligación de marcar salidas de IA generativa como contenido sintético en formato legible por máquina. No existe disposición específica sobre etiquetado de contenido sintético para usuarios chilenos.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.4076268672943115
+        },
+        {
+          "score": 0.4046933650970459
+        },
+        {
+          "score": 0.3782126307487488
+        },
+        {
+          "score": 0.35730260610580444
+        },
+        {
+          "score": 0.3568715453147888
+        },
+        {
+          "score": 0.354365736246109
+        },
+        {
+          "score": 0.3500584363937378
+        }
+      ],
+      "tiempo_seg": 2.05
+    },
+    {
+      "requisito_id": "R03",
+      "requisito": "El titular tiene derecho a no ser objeto de una decisión basada exclusivamente en el tratamiento automatizado, incluida la elaboración de perfiles, que produzca efectos jurídicos o le afecte significativamente.",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 22",
+      "servicio": "anthropic",
+      "locale": "eu",
+      "fallo": "full",
+      "seccion": "4",
+      "evidencia": "Anthropic no toma decisiones basadas únicamente en el tratamiento automatizado o la elaboración de perfiles",
+      "confidence": 0.95,
+      "razon": "La policy explícitamente garantiza al usuario el derecho a no ser objeto de decisiones basadas exclusivamente en tratamiento automatizado o profiling que produzcan efectos jurídicos o le afecten significativamente, sin limitación jurisdiccional específica que lo restrinja solo a otras jurisdicciones.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.5871944427490234
+        },
+        {
+          "score": 0.5736837387084961
+        },
+        {
+          "score": 0.5186931490898132
+        },
+        {
+          "score": 0.5002956390380859
+        },
+        {
+          "score": 0.4979590177536011
+        },
+        {
+          "score": 0.4721513092517853
+        },
+        {
+          "score": 0.46956193447113037
+        }
+      ],
+      "tiempo_seg": 2.65
+    },
+    {
+      "requisito_id": "R04",
+      "requisito": "Cuando hay decisiones automatizadas, la ley garantiza intervención humana significativa (no meramente formal) por parte del responsable del tratamiento.",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 22(3)",
+      "servicio": "anthropic",
+      "locale": "eu",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "El texto fuente no menciona ni garantiza intervención humana significativa en decisiones automatizadas. Solo trata sobre mecanismos de ejercicio de derechos, transferencias internacionales, anonimización y bases legales del tratamiento, pero no aborda el derecho a intervención humana en decisiones automatizadas conforme al artículo 22 RGPD.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.4720384478569031
+        },
+        {
+          "score": 0.46634945273399353
+        },
+        {
+          "score": 0.4490549564361572
+        },
+        {
+          "score": 0.44220447540283203
+        },
+        {
+          "score": 0.44113534688949585
+        },
+        {
+          "score": 0.42579448223114014
+        },
+        {
+          "score": 0.4195876717567444
+        }
+      ],
+      "tiempo_seg": 2.08
+    },
+    {
+      "requisito_id": "R05",
+      "requisito": "El titular tiene derecho a recibir información significativa sobre la lógica aplicada, así como sobre la importancia y las consecuencias previstas del tratamiento automatizado (explicabilidad).",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Arts. 13(2)(f) / 14(2)(g)",
+      "servicio": "anthropic",
+      "locale": "eu",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "La política no menciona específicamente el derecho a recibir información sobre la lógica, importancia o consecuencias del tratamiento automatizado (explicabilidad) según GDPR Art. 13/14. Solo menciona que no toma decisiones automatizadas con efectos jurídicos, pero no garantiza acceso a información explicativa sobre la lógica de la IA.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.5567092895507812
+        },
+        {
+          "score": 0.5524499416351318
+        },
+        {
+          "score": 0.544285237789154
+        },
+        {
+          "score": 0.5154190063476562
+        },
+        {
+          "score": 0.5135446190834045
+        },
+        {
+          "score": 0.48976391553878784
+        },
+        {
+          "score": 0.4837304353713989
+        }
+      ],
+      "tiempo_seg": 4.48
+    },
+    {
+      "requisito_id": "R06",
+      "requisito": "La ley regula las transferencias internacionales de datos personales mediante mecanismos de adecuación, garantías apropiadas (cláusulas tipo) o normas corporativas vinculantes (BCR).",
+      "dimension": "3. Transferencia internacional",
+      "capa": "B",
+      "articulo_estandar": "GDPR Arts. 44-49",
+      "servicio": "anthropic",
+      "locale": "eu",
+      "fallo": "full",
+      "seccion": "5",
+      "evidencia": "Decisiones de adecuación, Cláusulas tipo, excepciones previstas en la legislación",
+      "confidence": 0.95,
+      "razon": "La política describe explícitamente los tres mecanismos legales de transferencia internacional (adecuación, cláusulas tipo y excepciones) aplicables a usuarios del EEE/Reino Unido, con referencias a garantías específicas y opción de contacto para aclaraciones.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.6679998636245728
+        },
+        {
+          "score": 0.6536992788314819
+        },
+        {
+          "score": 0.6508512496948242
+        },
+        {
+          "score": 0.5905988216400146
+        },
+        {
+          "score": 0.5455104112625122
+        },
+        {
+          "score": 0.5369690656661987
+        },
+        {
+          "score": 0.527703583240509
+        }
+      ],
+      "tiempo_seg": 1.9
+    },
+    {
+      "requisito_id": "R07",
+      "requisito": "La ley exige que las empresas extranjeras designen un representante en la jurisdicción local con responsabilidad propia (no solo un contacto procesal).",
+      "dimension": "3. Transferencia internacional",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 27",
+      "servicio": "anthropic",
+      "locale": "eu",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "La policy no designa un representante legal en la UE/EEE con responsabilidad propia. Solo identifica a 'Anthropic Ireland, Limited' como responsable del tratamiento, pero no establece un representante independiente con responsabilidad legal propia según requiere la legislación de la UE/EEE (RGPD art. 27).",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.5833343267440796
+        },
+        {
+          "score": 0.5585377216339111
+        },
+        {
+          "score": 0.4987739324569702
+        },
+        {
+          "score": 0.4978939890861511
+        },
+        {
+          "score": 0.4927595853805542
+        },
+        {
+          "score": 0.4395425617694855
+        },
+        {
+          "score": 0.41790854930877686
+        }
+      ],
+      "tiempo_seg": 1.68
+    },
+    {
+      "requisito_id": "R10",
+      "requisito": "La ley obliga a los proveedores de sistemas de IA generativa a marcar las salidas como contenido sintético en formato legible por máquina.",
+      "dimension": "4. Contenido sintético y deepfakes",
+      "capa": "A",
+      "articulo_estandar": "EU AI Act Art. 50(2)",
+      "servicio": "anthropic",
+      "locale": "eu",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "La policy no menciona el marcado de salidas como contenido sintético en formato legible por máquina, requisito obligatorio para proveedores de IA generativa en la UE/EEE según la normativa de IA. Solo aborda minimización de datos y anonimización, pero no el etiquetado de contenido generado.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.5043762922286987
+        },
+        {
+          "score": 0.47214603424072266
+        },
+        {
+          "score": 0.46773189306259155
+        },
+        {
+          "score": 0.4584559202194214
+        },
+        {
+          "score": 0.4441743791103363
+        },
+        {
+          "score": 0.40095043182373047
+        },
+        {
+          "score": 0.39332330226898193
+        }
+      ],
+      "tiempo_seg": 2.08
+    },
+    {
+      "requisito_id": "R03",
+      "requisito": "El titular tiene derecho a no ser objeto de una decisión basada exclusivamente en el tratamiento automatizado, incluida la elaboración de perfiles, que produzca efectos jurídicos o le afecte significativamente.",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 22",
+      "servicio": "anthropic",
+      "locale": "brasil",
+      "fallo": "full",
+      "seccion": "4 - Derechos y Opciones",
+      "evidencia": "Anthropic no toma decisiones basadas únicamente en el tratamiento automatizado o la elaboración de perfiles",
+      "confidence": 0.95,
+      "razon": "La política explícitamente garantiza al usuario brasileño que Anthropic no toma decisiones basadas exclusivamente en tratamiento automatizado o profiling que produzcan efectos jurídicos o afecten significativamente, alineándose con el derecho LGPD.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.5992341637611389
+        },
+        {
+          "score": 0.5871944427490234
+        },
+        {
+          "score": 0.5851823091506958
+        },
+        {
+          "score": 0.5736837387084961
+        },
+        {
+          "score": 0.5324523448944092
+        },
+        {
+          "score": 0.5186931490898132
+        },
+        {
+          "score": 0.5002955794334412
+        }
+      ],
+      "tiempo_seg": 1.91
+    },
+    {
+      "requisito_id": "R04",
+      "requisito": "Cuando hay decisiones automatizadas, la ley garantiza intervención humana significativa (no meramente formal) por parte del responsable del tratamiento.",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 22(3)",
+      "servicio": "anthropic",
+      "locale": "brasil",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "La policy menciona genéricamente el derecho a solicitar revisión de decisiones automatizadas, pero no especifica ni garantiza intervención humana significativa (no meramente formal) por parte del responsable. No hay disposiciones concretas sobre cómo se garantiza dicha intervención en Brasil conforme a LGPD.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.500308632850647
+        },
+        {
+          "score": 0.4720384478569031
+        },
+        {
+          "score": 0.46634945273399353
+        },
+        {
+          "score": 0.4490549564361572
+        },
+        {
+          "score": 0.4422045350074768
+        },
+        {
+          "score": 0.44113534688949585
+        },
+        {
+          "score": 0.4281538128852844
+        }
+      ],
+      "tiempo_seg": 1.72
+    },
+    {
+      "requisito_id": "R05",
+      "requisito": "El titular tiene derecho a recibir información significativa sobre la lógica aplicada, así como sobre la importancia y las consecuencias previstas del tratamiento automatizado (explicabilidad).",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Arts. 13(2)(f) / 14(2)(g)",
+      "servicio": "anthropic",
+      "locale": "brasil",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "La política no ofrece ni garantiza al usuario brasileño el derecho a recibir información significativa sobre la lógica aplicada, importancia y consecuencias del tratamiento automatizado (explicabilidad). Solo menciona que no toma decisiones automatizadas con efecto jurídico, pero no garantiza transparencia sobre la lógica de los sistemas de IA que sí utiliza.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.615562915802002
+        },
+        {
+          "score": 0.5567092895507812
+        },
+        {
+          "score": 0.5524499416351318
+        },
+        {
+          "score": 0.5442852973937988
+        },
+        {
+          "score": 0.5238662958145142
+        },
+        {
+          "score": 0.5154190063476562
+        },
+        {
+          "score": 0.5135446190834045
+        }
+      ],
+      "tiempo_seg": 2.05
+    },
+    {
+      "requisito_id": "R06",
+      "requisito": "La ley regula las transferencias internacionales de datos personales mediante mecanismos de adecuación, garantías apropiadas (cláusulas tipo) o normas corporativas vinculantes (BCR).",
+      "dimension": "3. Transferencia internacional",
+      "capa": "B",
+      "articulo_estandar": "GDPR Arts. 44-49",
+      "servicio": "anthropic",
+      "locale": "brasil",
+      "fallo": "full",
+      "seccion": "5. Transferencias internacionales de datos",
+      "evidencia": "Brasil, nos basaremos en cláusulas contractuales tipo (CCT) para nuestras transferencias de datos",
+      "confidence": 0.95,
+      "razon": "La policy explícitamente garantiza al usuario brasileño que las transferencias internacionales de datos se realizarán mediante cláusulas contractuales tipo (CCT) aprobadas por la ANPD, cumpliendo así el mecanismo de garantías apropiadas regulado por la LGPD.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.6679998636245728
+        },
+        {
+          "score": 0.6536992788314819
+        },
+        {
+          "score": 0.6508512496948242
+        },
+        {
+          "score": 0.6096854209899902
+        },
+        {
+          "score": 0.5905988216400146
+        },
+        {
+          "score": 0.5748389959335327
+        },
+        {
+          "score": 0.5553689002990723
+        }
+      ],
+      "tiempo_seg": 1.78
+    },
+    {
+      "requisito_id": "R07",
+      "requisito": "La ley exige que las empresas extranjeras designen un representante en la jurisdicción local con responsabilidad propia (no solo un contacto procesal).",
+      "dimension": "3. Transferencia internacional",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 27",
+      "servicio": "anthropic",
+      "locale": "brasil",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "El texto no designa un representante local en Brasil con responsabilidad propia. Solo menciona contacto con ANPD, cláusulas contractuales tipo y que Anthropic PBC es responsable del tratamiento, pero no establece un representante designado en la jurisdicción brasileña con responsabilidad directa conforme exige LGPD artículo 13.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.5833343267440796
+        },
+        {
+          "score": 0.5585377216339111
+        },
+        {
+          "score": 0.4987739324569702
+        },
+        {
+          "score": 0.4978939890861511
+        },
+        {
+          "score": 0.4927768409252167
+        },
+        {
+          "score": 0.4927595853805542
+        },
+        {
+          "score": 0.4512609541416168
+        }
+      ],
+      "tiempo_seg": 2.37
+    },
+    {
+      "requisito_id": "R10",
+      "requisito": "La ley obliga a los proveedores de sistemas de IA generativa a marcar las salidas como contenido sintético en formato legible por máquina.",
+      "dimension": "4. Contenido sintético y deepfakes",
+      "capa": "A",
+      "articulo_estandar": "EU AI Act Art. 50(2)",
+      "servicio": "anthropic",
+      "locale": "brasil",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "La policy no menciona la obligación de marcar salidas como contenido sintético en formato legible por máquina para usuarios brasileños. Solo describe tratamiento de datos y seguridad, sin abordar el etiquetado de outputs de IA generativa.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.5043762922286987
+        },
+        {
+          "score": 0.47214603424072266
+        },
+        {
+          "score": 0.46773189306259155
+        },
+        {
+          "score": 0.45845580101013184
+        },
+        {
+          "score": 0.4441743791103363
+        },
+        {
+          "score": 0.40095049142837524
+        },
+        {
+          "score": 0.39332330226898193
+        }
+      ],
+      "tiempo_seg": 1.73
+    },
+    {
+      "requisito_id": "R03",
+      "requisito": "El titular tiene derecho a no ser objeto de una decisión basada exclusivamente en el tratamiento automatizado, incluida la elaboración de perfiles, que produzca efectos jurídicos o le afecte significativamente.",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 22",
+      "servicio": "anthropic",
+      "locale": "row",
+      "fallo": "full",
+      "seccion": "4. Derechos y Opciones - Toma de decisiones automatizada",
+      "evidencia": "Anthropic no toma decisiones basadas únicamente en el tratamiento automatizado o la elaboración de perfiles de forma que produzcan un efecto jurídico",
+      "confidence": 0.95,
+      "razon": "La policy garantiza explícitamente que no se toman decisiones basadas exclusivamente en tratamiento automatizado que afecten derechos o de forma significativa, sin condicionar este derecho a otra jurisdicción específica.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.5871944427490234
+        },
+        {
+          "score": 0.5736837387084961
+        },
+        {
+          "score": 0.5186931490898132
+        },
+        {
+          "score": 0.5002956390380859
+        },
+        {
+          "score": 0.4979590177536011
+        },
+        {
+          "score": 0.4721513092517853
+        },
+        {
+          "score": 0.46956193447113037
+        }
+      ],
+      "tiempo_seg": 2.28
+    },
+    {
+      "requisito_id": "R04",
+      "requisito": "Cuando hay decisiones automatizadas, la ley garantiza intervención humana significativa (no meramente formal) por parte del responsable del tratamiento.",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 22(3)",
+      "servicio": "anthropic",
+      "locale": "row",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "La policy no menciona intervención humana significativa en decisiones automatizadas. Solo describe mecanismos de ejercicio de derechos y bases de legitimación, pero no aborda específicamente garantías de intervención humana en decisiones automatizadas para usuarios de LatAm fuera de Brasil.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.4720384478569031
+        },
+        {
+          "score": 0.46634945273399353
+        },
+        {
+          "score": 0.4490549564361572
+        },
+        {
+          "score": 0.44220447540283203
+        },
+        {
+          "score": 0.44113534688949585
+        },
+        {
+          "score": 0.42579448223114014
+        },
+        {
+          "score": 0.4195876717567444
+        }
+      ],
+      "tiempo_seg": 1.75
+    },
+    {
+      "requisito_id": "R05",
+      "requisito": "El titular tiene derecho a recibir información significativa sobre la lógica aplicada, así como sobre la importancia y las consecuencias previstas del tratamiento automatizado (explicabilidad).",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Arts. 13(2)(f) / 14(2)(g)",
+      "servicio": "anthropic",
+      "locale": "row",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "La policy no ofrece garantía específica de recibir información sobre la lógica aplicada, importancia y consecuencias del tratamiento automatizado (explicabilidad). Solo menciona derecho a 'toma de decisiones automatizada' pero niega que Anthropic tome decisiones con efecto jurídico, sin garantizar explicabilidad sobre lógica de tratamiento de datos personales.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.5567092895507812
+        },
+        {
+          "score": 0.5524499416351318
+        },
+        {
+          "score": 0.544285237789154
+        },
+        {
+          "score": 0.5154190063476562
+        },
+        {
+          "score": 0.5135446190834045
+        },
+        {
+          "score": 0.48976391553878784
+        },
+        {
+          "score": 0.4837304353713989
+        }
+      ],
+      "tiempo_seg": 2.21
+    },
+    {
+      "requisito_id": "R06",
+      "requisito": "La ley regula las transferencias internacionales de datos personales mediante mecanismos de adecuación, garantías apropiadas (cláusulas tipo) o normas corporativas vinculantes (BCR).",
+      "dimension": "3. Transferencia internacional",
+      "capa": "B",
+      "articulo_estandar": "GDPR Arts. 44-49",
+      "servicio": "anthropic",
+      "locale": "row",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "La policy describe mecanismos de transferencia (adecuación, cláusulas tipo, excepciones) pero solo para usuarios del EEE, Reino Unido y Suiza. Para un usuario chileno fuera de Brasil, la policy no garantiza explícitamente protecciones en transferencias internacionales bajo su jurisdicción aplicable.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.6679998636245728
+        },
+        {
+          "score": 0.6536992788314819
+        },
+        {
+          "score": 0.6508512496948242
+        },
+        {
+          "score": 0.5905988216400146
+        },
+        {
+          "score": 0.5455104112625122
+        },
+        {
+          "score": 0.5369690656661987
+        },
+        {
+          "score": 0.527703583240509
+        }
+      ],
+      "tiempo_seg": 1.8
+    },
+    {
+      "requisito_id": "R07",
+      "requisito": "La ley exige que las empresas extranjeras designen un representante en la jurisdicción local con responsabilidad propia (no solo un contacto procesal).",
+      "dimension": "3. Transferencia internacional",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 27",
+      "servicio": "anthropic",
+      "locale": "row",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "La política no designa representante local con responsabilidad propia en Chile. Solo menciona contacto para reclamaciones en UE, UK, Brasil y Australia, pero excluye explícitamente a usuarios de LatAm fuera de Brasil. No hay mención de representante designado en Chile.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.5833343267440796
+        },
+        {
+          "score": 0.5585377216339111
+        },
+        {
+          "score": 0.4987739324569702
+        },
+        {
+          "score": 0.4978939890861511
+        },
+        {
+          "score": 0.4927595853805542
+        },
+        {
+          "score": 0.4395425617694855
+        },
+        {
+          "score": 0.41790854930877686
+        }
+      ],
+      "tiempo_seg": 1.89
+    },
+    {
+      "requisito_id": "R10",
+      "requisito": "La ley obliga a los proveedores de sistemas de IA generativa a marcar las salidas como contenido sintético en formato legible por máquina.",
+      "dimension": "4. Contenido sintético y deepfakes",
+      "capa": "A",
+      "articulo_estandar": "EU AI Act Art. 50(2)",
+      "servicio": "anthropic",
+      "locale": "row",
+      "fallo": "absent",
+      "seccion": null,
+      "evidencia": null,
+      "confidence": 0.95,
+      "razon": "La política no menciona marcado de contenido sintético en formato legible por máquina. Solo describe tratamiento de datos, entrenamiento de modelos y bases de legitimación, sin abordar la obligación de identificar outputs como contenido sintético.",
+      "needs_human_review": false,
+      "parrafos_vistos": [
+        {
+          "score": 0.5043762922286987
+        },
+        {
+          "score": 0.47214603424072266
+        },
+        {
+          "score": 0.46773189306259155
+        },
+        {
+          "score": 0.4584559202194214
+        },
+        {
+          "score": 0.4441743791103363
+        },
+        {
+          "score": 0.40095043182373047
+        },
+        {
+          "score": 0.39332330226898193
+        }
+      ],
+      "tiempo_seg": 1.65
+    }
+  ]
+}

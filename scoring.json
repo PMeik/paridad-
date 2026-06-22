@@ -1,0 +1,1386 @@
+{
+  "_meta": {
+    "modelo_juez": "claude-haiku-4-5-20251001",
+    "modelo_embeddings": "paraphrase-multilingual-mpnet-base-v2",
+    "k_vecinos": 7,
+    "leyes": [
+      "LGPD",
+      "Chile21719"
+    ],
+    "n_requisitos": 14
+  },
+  "celdas": [
+    {
+      "requisito_id": "R01",
+      "requisito": "La ley establece prácticas prohibidas de IA (sistemas que manipulan, explotan vulnerabilidades, social scoring por autoridades públicas, identificación biométrica masiva).",
+      "dimension": "1. Regulación de IA de alto riesgo",
+      "capa": "A",
+      "articulo_estandar": "EU AI Act Art. 5",
+      "ley": "LGPD",
+      "motor_fallo": "absent",
+      "motor_articulo": null,
+      "motor_evidencia": null,
+      "motor_confidence": 0.95,
+      "motor_razon": "El texto fuente (LGPD brasileña) no establece prácticas prohibidas específicas de IA como sistemas de manipulación, explotación de vulnerabilidades, social scoring por autoridades o identificación biométrica masiva. Solo regula tratamiento de datos personales, seguridad y consentimiento, sin prohibiciones explícitas de usos de IA.",
+      "needs_human_review": false,
+      "gt_fallo": "absent",
+      "gt_articulo": null,
+      "gt_razon": "Tampoco regula IA. PL 2.338/2023 pendiente.",
+      "match_gt": "match",
+      "chunks_top_k": [
+        {
+          "articulo": "44",
+          "score": 0.6170061826705933
+        },
+        {
+          "articulo": "46",
+          "score": 0.6125560998916626
+        },
+        {
+          "articulo": "49",
+          "score": 0.58049476146698
+        },
+        {
+          "articulo": "51",
+          "score": 0.578051745891571
+        },
+        {
+          "articulo": "11",
+          "score": 0.5734612941741943
+        },
+        {
+          "articulo": "13",
+          "score": 0.5600824356079102
+        },
+        {
+          "articulo": "31",
+          "score": 0.5535068511962891
+        }
+      ],
+      "tiempo_seg": 2.23
+    },
+    {
+      "requisito_id": "R01",
+      "requisito": "La ley establece prácticas prohibidas de IA (sistemas que manipulan, explotan vulnerabilidades, social scoring por autoridades públicas, identificación biométrica masiva).",
+      "dimension": "1. Regulación de IA de alto riesgo",
+      "capa": "A",
+      "articulo_estandar": "EU AI Act Art. 5",
+      "ley": "Chile21719",
+      "motor_fallo": "partial",
+      "motor_articulo": "8 bis, 25, 34 quáter",
+      "motor_evidencia": "derecho a oponerse a decisiones automatizadas; prohibición tratamiento masivo datos infracciones; medidas de seguridad",
+      "motor_confidence": 0.55,
+      "motor_razon": "La ley prohíbe decisiones automatizadas sin salvaguardas y tratamiento masivo de datos de infracciones, pero no aborda explícitamente manipulación, explotación de vulnerabilidades, social scoring por autoridades públicas, ni identificación biométrica masiva como prácticas prohibidas de IA.",
+      "needs_human_review": true,
+      "gt_fallo": "absent",
+      "gt_articulo": null,
+      "gt_razon": "Ley de protección de datos, no de IA. No clasifica IA por riesgo.",
+      "match_gt": "mismatch",
+      "chunks_top_k": [
+        {
+          "articulo": "48",
+          "score": 0.6504384279251099
+        },
+        {
+          "articulo": "34",
+          "score": 0.5669419169425964
+        },
+        {
+          "articulo": "8",
+          "score": 0.5667874813079834
+        },
+        {
+          "articulo": "34",
+          "score": 0.5588577389717102
+        },
+        {
+          "articulo": "14",
+          "score": 0.5584641098976135
+        },
+        {
+          "articulo": "24",
+          "score": 0.5496334433555603
+        },
+        {
+          "articulo": "25",
+          "score": 0.5337709188461304
+        }
+      ],
+      "tiempo_seg": 2.63
+    },
+    {
+      "requisito_id": "R02",
+      "requisito": "La ley clasifica el scoring crediticio (credit scoring) como sistema de IA de alto riesgo con obligaciones específicas de conformidad.",
+      "dimension": "1. Regulación de IA de alto riesgo",
+      "capa": "A",
+      "articulo_estandar": "EU AI Act Anexo III",
+      "ley": "LGPD",
+      "motor_fallo": "absent",
+      "motor_articulo": null,
+      "motor_evidencia": null,
+      "motor_confidence": 0.95,
+      "motor_razon": "El texto fuente no menciona ni clasifica explícitamente el scoring crediticio (credit scoring) como sistema de IA de alto riesgo, ni establece obligaciones específicas de conformidad para este tipo de sistema. Aunque contiene obligaciones generales de seguridad, buen gobierno y evaluación de riesgos para tratamiento de datos, no aborda específicamente el scoring crediticio como categoría de riesgo alto.",
+      "needs_human_review": false,
+      "gt_fallo": "absent",
+      "gt_articulo": null,
+      "gt_razon": "No contemplado.",
+      "match_gt": "match",
+      "chunks_top_k": [
+        {
+          "articulo": "46",
+          "score": 0.4973607063293457
+        },
+        {
+          "articulo": "49",
+          "score": 0.48572009801864624
+        },
+        {
+          "articulo": "51",
+          "score": 0.48120981454849243
+        },
+        {
+          "articulo": "50",
+          "score": 0.48036396503448486
+        },
+        {
+          "articulo": "52",
+          "score": 0.47982215881347656
+        },
+        {
+          "articulo": "48",
+          "score": 0.47808998823165894
+        },
+        {
+          "articulo": "38",
+          "score": 0.47713515162467957
+        }
+      ],
+      "tiempo_seg": 1.84
+    },
+    {
+      "requisito_id": "R02",
+      "requisito": "La ley clasifica el scoring crediticio (credit scoring) como sistema de IA de alto riesgo con obligaciones específicas de conformidad.",
+      "dimension": "1. Regulación de IA de alto riesgo",
+      "capa": "A",
+      "articulo_estandar": "EU AI Act Anexo III",
+      "ley": "Chile21719",
+      "motor_fallo": "absent",
+      "motor_articulo": null,
+      "motor_evidencia": null,
+      "motor_confidence": 0.95,
+      "motor_razon": "El texto no menciona explícitamente al scoring crediticio o credit scoring como sistema de IA de alto riesgo. Aunque el Art. 15 ter cubre evaluación de impacto para tratamientos de alto riesgo incluyendo decisiones automatizadas, no identifica específicamente al scoring crediticio ni establece obligaciones específicas para este.",
+      "needs_human_review": false,
+      "gt_fallo": "absent",
+      "gt_articulo": null,
+      "gt_razon": "No contemplado.",
+      "match_gt": "match",
+      "chunks_top_k": [
+        {
+          "articulo": "15",
+          "score": 0.5133038759231567
+        },
+        {
+          "articulo": "39",
+          "score": 0.4975246787071228
+        },
+        {
+          "articulo": "14",
+          "score": 0.492300808429718
+        },
+        {
+          "articulo": "14",
+          "score": 0.471070796251297
+        },
+        {
+          "articulo": "51",
+          "score": 0.4562048614025116
+        },
+        {
+          "articulo": "14",
+          "score": 0.4528582692146301
+        },
+        {
+          "articulo": "36",
+          "score": 0.4506230354309082
+        }
+      ],
+      "tiempo_seg": 2.41
+    },
+    {
+      "requisito_id": "R03",
+      "requisito": "El titular tiene derecho a no ser objeto de una decisión basada exclusivamente en el tratamiento automatizado, incluida la elaboración de perfiles, que produzca efectos jurídicos o le afecte significativamente.",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 22",
+      "ley": "LGPD",
+      "motor_fallo": "full",
+      "motor_articulo": "20",
+      "motor_evidencia": "O titular dos dados tem direito a solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado",
+      "motor_confidence": 0.95,
+      "motor_razon": "El Art. 20 reconoce explícitamente el derecho del titular a solicitar revisión de decisiones basadas exclusivamente en tratamiento automatizado, incluida elaboración de perfiles, que afecten sus intereses, satisfaciendo completamente el requisito evaluado.",
+      "needs_human_review": false,
+      "gt_fallo": "partial",
+      "gt_articulo": "Art. 20",
+      "gt_razon": "Solo derecho de revisión; no garantiza intervención humana.",
+      "match_gt": "mismatch",
+      "chunks_top_k": [
+        {
+          "articulo": "20",
+          "score": 0.6696958541870117
+        },
+        {
+          "articulo": "21",
+          "score": 0.6656672954559326
+        },
+        {
+          "articulo": "43",
+          "score": 0.6396421194076538
+        },
+        {
+          "articulo": "7",
+          "score": 0.6364336609840393
+        },
+        {
+          "articulo": "11",
+          "score": 0.6362765431404114
+        },
+        {
+          "articulo": "18",
+          "score": 0.6311619281768799
+        },
+        {
+          "articulo": "12",
+          "score": 0.6242936253547668
+        }
+      ],
+      "tiempo_seg": 2.61
+    },
+    {
+      "requisito_id": "R03",
+      "requisito": "El titular tiene derecho a no ser objeto de una decisión basada exclusivamente en el tratamiento automatizado, incluida la elaboración de perfiles, que produzca efectos jurídicos o le afecte significativamente.",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 22",
+      "ley": "Chile21719",
+      "motor_fallo": "full",
+      "motor_articulo": "8 bis",
+      "motor_evidencia": "El titular de datos tiene derecho a oponerse y a no ser objeto de decisiones basadas en el tratamiento automatizado",
+      "motor_confidence": 0.95,
+      "motor_razon": "El Art. 8 bis establece explícitamente el derecho a no ser objeto de decisiones basadas exclusivamente en tratamiento automatizado que produzcan efectos jurídicos o afecten significativamente, con excepciones limitadas y salvaguardas obligatorias.",
+      "needs_human_review": false,
+      "gt_fallo": "full",
+      "gt_articulo": "Art. 8 bis",
+      "gt_razon": "Derecho de oposición con excepciones a/b/c.",
+      "match_gt": "match",
+      "chunks_top_k": [
+        {
+          "articulo": "8",
+          "score": 0.8085474967956543
+        },
+        {
+          "articulo": "7",
+          "score": 0.650696873664856
+        },
+        {
+          "articulo": "8",
+          "score": 0.620367169380188
+        },
+        {
+          "articulo": "15",
+          "score": 0.6069819927215576
+        },
+        {
+          "articulo": "6",
+          "score": 0.5962575674057007
+        },
+        {
+          "articulo": "15",
+          "score": 0.596085250377655
+        },
+        {
+          "articulo": "8",
+          "score": 0.592125415802002
+        }
+      ],
+      "tiempo_seg": 2.04
+    },
+    {
+      "requisito_id": "R04",
+      "requisito": "Cuando hay decisiones automatizadas, la ley garantiza intervención humana significativa (no meramente formal) por parte del responsable del tratamiento.",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 22(3)",
+      "ley": "LGPD",
+      "motor_fallo": "partial",
+      "motor_articulo": "20",
+      "motor_evidencia": "O titular dos dados tem direito a solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado",
+      "motor_confidence": 0.45,
+      "motor_razon": "Art. 20 garantiza derecho a revisión y explicación de decisiones automatizadas, pero no establece intervención humana significativa previa del responsable en la toma de decisión automatizada, solo revisión posterior.",
+      "needs_human_review": true,
+      "gt_fallo": "absent",
+      "gt_articulo": "Art. 20",
+      "gt_razon": "No garantizada explícitamente.",
+      "match_gt": "mismatch",
+      "chunks_top_k": [
+        {
+          "articulo": "47",
+          "score": 0.587378740310669
+        },
+        {
+          "articulo": "46",
+          "score": 0.5608034729957581
+        },
+        {
+          "articulo": "20",
+          "score": 0.5565598011016846
+        },
+        {
+          "articulo": "3",
+          "score": 0.5478529930114746
+        },
+        {
+          "articulo": "6",
+          "score": 0.5324618816375732
+        },
+        {
+          "articulo": "11",
+          "score": 0.5277488827705383
+        },
+        {
+          "articulo": "29",
+          "score": 0.5212807655334473
+        }
+      ],
+      "tiempo_seg": 1.98
+    },
+    {
+      "requisito_id": "R04",
+      "requisito": "Cuando hay decisiones automatizadas, la ley garantiza intervención humana significativa (no meramente formal) por parte del responsable del tratamiento.",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 22(3)",
+      "ley": "Chile21719",
+      "motor_fallo": "partial",
+      "motor_articulo": "8 bis",
+      "motor_evidencia": "el responsable deberá adoptar las medidas necesarias para asegurar los derechos y libertades del titular, su derecho a la información y transparencia, el derecho a obtener una explicación, a la intervención humana",
+      "motor_confidence": 0.65,
+      "motor_razon": "La ley menciona explícitamente 'intervención humana' como medida obligatoria en decisiones automatizadas, pero no especifica que esta intervención debe ser 'significativa' (no meramente formal) ni detalla cómo verificar su efectividad real versus cumplimiento formal.",
+      "needs_human_review": false,
+      "gt_fallo": "full",
+      "gt_articulo": "Art. 8 bis",
+      "gt_razon": "Intervención humana explícita.",
+      "match_gt": "mismatch",
+      "chunks_top_k": [
+        {
+          "articulo": "8",
+          "score": 0.594261884689331
+        },
+        {
+          "articulo": "15",
+          "score": 0.5897257328033447
+        },
+        {
+          "articulo": "14",
+          "score": 0.5221251845359802
+        },
+        {
+          "articulo": "36",
+          "score": 0.5198100805282593
+        },
+        {
+          "articulo": "12",
+          "score": 0.5015713572502136
+        },
+        {
+          "articulo": "45",
+          "score": 0.48884379863739014
+        },
+        {
+          "articulo": "44",
+          "score": 0.4877813160419464
+        }
+      ],
+      "tiempo_seg": 2.49
+    },
+    {
+      "requisito_id": "R05",
+      "requisito": "El titular tiene derecho a recibir información significativa sobre la lógica aplicada, así como sobre la importancia y las consecuencias previstas del tratamiento automatizado (explicabilidad).",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Arts. 13(2)(f) / 14(2)(g)",
+      "ley": "LGPD",
+      "motor_fallo": "partial",
+      "motor_articulo": "20",
+      "motor_evidencia": "O controlador deverá fornecer, sempre que solicitadas, informações claras e adequadas a respeito dos critérios e dos procedimentos utilizados para a decisão automatizada",
+      "motor_confidence": 0.65,
+      "motor_razon": "Art. 20 § 1 requiere información sobre criterios y procedimientos de decisiones automatizadas, pero no menciona explícitamente la 'lógica aplicada', 'importancia' o 'consecuencias previstas' del tratamiento. La cobertura es incompleta respecto al requisito de explicabilidad integral.",
+      "needs_human_review": false,
+      "gt_fallo": "partial",
+      "gt_articulo": "Art. 20 §1",
+      "gt_razon": "Sin profundidad de explicabilidad definida.",
+      "match_gt": "match",
+      "chunks_top_k": [
+        {
+          "articulo": "20",
+          "score": 0.6829880475997925
+        },
+        {
+          "articulo": "9",
+          "score": 0.6774307489395142
+        },
+        {
+          "articulo": "6",
+          "score": 0.5999359488487244
+        },
+        {
+          "articulo": "50",
+          "score": 0.5949892997741699
+        },
+        {
+          "articulo": "10",
+          "score": 0.5828348398208618
+        },
+        {
+          "articulo": "29",
+          "score": 0.5821406841278076
+        },
+        {
+          "articulo": "38",
+          "score": 0.5815538167953491
+        }
+      ],
+      "tiempo_seg": 2.42
+    },
+    {
+      "requisito_id": "R05",
+      "requisito": "El titular tiene derecho a recibir información significativa sobre la lógica aplicada, así como sobre la importancia y las consecuencias previstas del tratamiento automatizado (explicabilidad).",
+      "dimension": "2. Decisiones automatizadas y perfilamiento",
+      "capa": "B",
+      "articulo_estandar": "GDPR Arts. 13(2)(f) / 14(2)(g)",
+      "ley": "Chile21719",
+      "motor_fallo": "partial",
+      "motor_articulo": "5",
+      "motor_evidencia": "información significativa sobre la lógica aplicada en el caso de que el responsable realice",
+      "motor_confidence": 0.65,
+      "motor_razon": "El Art. 5(f) menciona información sobre la lógica aplicada, pero el Art. 8 bis no detalla explícitamente qué constituye 'significativa' ni especifica las consecuencias previstas del tratamiento automatizado, limitando así la cobertura del requisito de explicabilidad.",
+      "needs_human_review": false,
+      "gt_fallo": "full",
+      "gt_articulo": "Art. 14 ter letra l",
+      "gt_razon": "Información significativa sobre lógica + consecuencias previstas.",
+      "match_gt": "mismatch",
+      "chunks_top_k": [
+        {
+          "articulo": "8",
+          "score": 0.6275858283042908
+        },
+        {
+          "articulo": "15",
+          "score": 0.6164959669113159
+        },
+        {
+          "articulo": "12",
+          "score": 0.5671142339706421
+        },
+        {
+          "articulo": "14",
+          "score": 0.5616381168365479
+        },
+        {
+          "articulo": "14",
+          "score": 0.5593438148498535
+        },
+        {
+          "articulo": "5",
+          "score": 0.5538332462310791
+        },
+        {
+          "articulo": "9",
+          "score": 0.545032262802124
+        }
+      ],
+      "tiempo_seg": 2.0
+    },
+    {
+      "requisito_id": "R06",
+      "requisito": "La ley regula las transferencias internacionales de datos personales mediante mecanismos de adecuación, garantías apropiadas (cláusulas tipo) o normas corporativas vinculantes (BCR).",
+      "dimension": "3. Transferencia internacional",
+      "capa": "B",
+      "articulo_estandar": "GDPR Arts. 44-49",
+      "ley": "LGPD",
+      "motor_fallo": "full",
+      "motor_articulo": "33",
+      "motor_evidencia": "cláusulas contratuais específicas, cláusulas-padrão contratuais, normas corporativas globais",
+      "motor_confidence": 0.95,
+      "motor_razon": "El Art. 33 regula explícitamente las transferencias internacionales mediante mecanismos de adecuación (inciso I), garantías apropiadas incluyendo cláusulas tipo (inciso II.b) y normas corporativas vinculantes (inciso II.c), con verificación por autoridad nacional en Art. 35.",
+      "needs_human_review": false,
+      "gt_fallo": "full",
+      "gt_articulo": "Arts. 33-34",
+      "gt_razon": "Cubre adecuación (Art. 34) y garantías (Art. 33).",
+      "match_gt": "match",
+      "chunks_top_k": [
+        {
+          "articulo": "33",
+          "score": 0.8136559724807739
+        },
+        {
+          "articulo": "34",
+          "score": 0.7079777121543884
+        },
+        {
+          "articulo": "30",
+          "score": 0.7019298672676086
+        },
+        {
+          "articulo": "40",
+          "score": 0.679510772228241
+        },
+        {
+          "articulo": "49",
+          "score": 0.6768361926078796
+        },
+        {
+          "articulo": "51",
+          "score": 0.6699097752571106
+        },
+        {
+          "articulo": "35",
+          "score": 0.6549942493438721
+        }
+      ],
+      "tiempo_seg": 1.8
+    },
+    {
+      "requisito_id": "R06",
+      "requisito": "La ley regula las transferencias internacionales de datos personales mediante mecanismos de adecuación, garantías apropiadas (cláusulas tipo) o normas corporativas vinculantes (BCR).",
+      "dimension": "3. Transferencia internacional",
+      "capa": "B",
+      "articulo_estandar": "GDPR Arts. 44-49",
+      "ley": "Chile21719",
+      "motor_fallo": "full",
+      "motor_articulo": "27",
+      "motor_evidencia": "cláusulas contractuales, normas corporativas vinculantes, u otros instrumentos jurídicos",
+      "motor_confidence": 0.95,
+      "motor_razon": "El artículo 27 regula explícitamente transferencias mediante mecanismos de adecuación (art. 27a), cláusulas contractuales tipo y normas corporativas vinculantes (art. 27b), y modelos de certificación (art. 27c). El art. 28 desarrolla estos mecanismos detalladamente.",
+      "needs_human_review": false,
+      "gt_fallo": "full",
+      "gt_articulo": "Art. 28",
+      "gt_razon": "Cubre adecuación, cláusulas tipo y BCR.",
+      "match_gt": "match",
+      "chunks_top_k": [
+        {
+          "articulo": "27",
+          "score": 0.7458198070526123
+        },
+        {
+          "articulo": "28",
+          "score": 0.7170072793960571
+        },
+        {
+          "articulo": "26",
+          "score": 0.6407272815704346
+        },
+        {
+          "articulo": "29",
+          "score": 0.6379237771034241
+        },
+        {
+          "articulo": "14",
+          "score": 0.6341562271118164
+        },
+        {
+          "articulo": "14",
+          "score": 0.622366189956665
+        },
+        {
+          "articulo": "49",
+          "score": 0.6208732724189758
+        }
+      ],
+      "tiempo_seg": 2.76
+    },
+    {
+      "requisito_id": "R07",
+      "requisito": "La ley exige que las empresas extranjeras designen un representante en la jurisdicción local con responsabilidad propia (no solo un contacto procesal).",
+      "dimension": "3. Transferencia internacional",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 27",
+      "ley": "LGPD",
+      "motor_fallo": "partial",
+      "motor_articulo": "61",
+      "motor_evidencia": "na pessoa do agente ou representante ou pessoa responsável por sua filial, agência, sucursal",
+      "motor_confidence": 0.65,
+      "motor_razon": "Art. 61 exige designación de representante con responsabilidad en jurisdicción local, pero Art. 41 (encarregado de dados) se limita a funciones de contacto y cumplimiento, sin responsabilidad propia explícita ni obligación general de designación.",
+      "needs_human_review": false,
+      "gt_fallo": "partial",
+      "gt_articulo": "Art. 61",
+      "gt_razon": "Notificación procesal, sin responsable solidario por defecto.",
+      "match_gt": "match",
+      "chunks_top_k": [
+        {
+          "articulo": "61",
+          "score": 0.7237706184387207
+        },
+        {
+          "articulo": "41",
+          "score": 0.5361584424972534
+        },
+        {
+          "articulo": "34",
+          "score": 0.5337204337120056
+        },
+        {
+          "articulo": "33",
+          "score": 0.5309741497039795
+        },
+        {
+          "articulo": "3",
+          "score": 0.520246684551239
+        },
+        {
+          "articulo": "35",
+          "score": 0.5074661374092102
+        },
+        {
+          "articulo": "51",
+          "score": 0.5017478466033936
+        }
+      ],
+      "tiempo_seg": 2.16
+    },
+    {
+      "requisito_id": "R07",
+      "requisito": "La ley exige que las empresas extranjeras designen un representante en la jurisdicción local con responsabilidad propia (no solo un contacto procesal).",
+      "dimension": "3. Transferencia internacional",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 27",
+      "ley": "Chile21719",
+      "motor_fallo": "absent",
+      "motor_articulo": null,
+      "motor_evidencia": null,
+      "motor_confidence": 0.95,
+      "motor_razon": "El texto regula delegados de protección de datos personales (función de compliance), no representantes legales con responsabilidad propia ante jurisdicción local. El Art. 10 solo exige contacto electrónico para personas jurídicas no constituidas en Chile, sin establecer responsabilidad personal ni representación legal.",
+      "needs_human_review": false,
+      "gt_fallo": "partial",
+      "gt_articulo": "Art. 10 inc. 2° + Art. 14 inc. final",
+      "gt_razon": "Solo medio de contacto, sin responsabilidad solidaria.",
+      "match_gt": "mismatch",
+      "chunks_top_k": [
+        {
+          "articulo": "50",
+          "score": 0.5472140312194824
+        },
+        {
+          "articulo": "45",
+          "score": 0.5390627384185791
+        },
+        {
+          "articulo": "11",
+          "score": 0.5262951850891113
+        },
+        {
+          "articulo": "54",
+          "score": 0.5257387757301331
+        },
+        {
+          "articulo": "27",
+          "score": 0.5245665311813354
+        },
+        {
+          "articulo": "15",
+          "score": 0.5228777527809143
+        },
+        {
+          "articulo": "10",
+          "score": 0.5203351378440857
+        }
+      ],
+      "tiempo_seg": 1.75
+    },
+    {
+      "requisito_id": "R08",
+      "requisito": "La ley exige a los proveedores de modelos de IA de propósito general publicar un resumen suficientemente detallado del contenido utilizado para entrenar el modelo.",
+      "dimension": "3. Transferencia internacional",
+      "capa": "A",
+      "articulo_estandar": "EU AI Act Art. 53(1)(d)",
+      "ley": "LGPD",
+      "motor_fallo": "absent",
+      "motor_articulo": null,
+      "motor_evidencia": null,
+      "motor_confidence": 0.95,
+      "motor_razon": "El texto fuente es la LGPD brasileña sobre protección de datos personales. No contiene ninguna disposición que exija a proveedores de modelos de IA de propósito general publicar un resumen del contenido utilizado para entrenar el modelo. Los artículos citados regulan seguridad de datos, boas prácticas, gobernanza de privacidad e informes de impacto, pero ninguno aborda específicamente el entrenamiento de modelos de IA.",
+      "needs_human_review": false,
+      "gt_fallo": "absent",
+      "gt_articulo": null,
+      "gt_razon": "Sin disposición específica sobre datos de entrenamiento de IA.",
+      "match_gt": "match",
+      "chunks_top_k": [
+        {
+          "articulo": "49",
+          "score": 0.6293184161186218
+        },
+        {
+          "articulo": "50",
+          "score": 0.5870785713195801
+        },
+        {
+          "articulo": "63",
+          "score": 0.5619745850563049
+        },
+        {
+          "articulo": "20",
+          "score": 0.5569007396697998
+        },
+        {
+          "articulo": "38",
+          "score": 0.5521774888038635
+        },
+        {
+          "articulo": "9",
+          "score": 0.5448276400566101
+        },
+        {
+          "articulo": "48",
+          "score": 0.536802351474762
+        }
+      ],
+      "tiempo_seg": 2.23
+    },
+    {
+      "requisito_id": "R08",
+      "requisito": "La ley exige a los proveedores de modelos de IA de propósito general publicar un resumen suficientemente detallado del contenido utilizado para entrenar el modelo.",
+      "dimension": "3. Transferencia internacional",
+      "capa": "A",
+      "articulo_estandar": "EU AI Act Art. 53(1)(d)",
+      "ley": "Chile21719",
+      "motor_fallo": "absent",
+      "motor_articulo": null,
+      "motor_evidencia": null,
+      "motor_confidence": 0.95,
+      "motor_razon": "El texto fuente trata sobre protección de datos personales y modelos de prevención de infracciones, pero no contiene ninguna disposición sobre modelos de IA de propósito general ni sobre publicación de resúmenes de datos de entrenamiento.",
+      "needs_human_review": false,
+      "gt_fallo": "absent",
+      "gt_articulo": null,
+      "gt_razon": "Sin disposición específica sobre datos de entrenamiento de IA.",
+      "match_gt": "match",
+      "chunks_top_k": [
+        {
+          "articulo": "49",
+          "score": 0.5705548524856567
+        },
+        {
+          "articulo": "14",
+          "score": 0.5428647994995117
+        },
+        {
+          "articulo": "14",
+          "score": 0.5319881439208984
+        },
+        {
+          "articulo": "15",
+          "score": 0.5287672877311707
+        },
+        {
+          "articulo": "12",
+          "score": 0.517463207244873
+        },
+        {
+          "articulo": "21",
+          "score": 0.5035153031349182
+        },
+        {
+          "articulo": "25",
+          "score": 0.49929630756378174
+        }
+      ],
+      "tiempo_seg": 1.5
+    },
+    {
+      "requisito_id": "R09",
+      "requisito": "La ley define el concepto de deepfake (contenido manipulado por IA que se asemeja a personas, objetos, lugares o eventos reales).",
+      "dimension": "4. Contenido sintético y deepfakes",
+      "capa": "A",
+      "articulo_estandar": "EU AI Act Art. 3(60)",
+      "ley": "LGPD",
+      "motor_fallo": "absent",
+      "motor_articulo": null,
+      "motor_evidencia": null,
+      "motor_confidence": 0.95,
+      "motor_razon": "El texto legal no define el concepto de deepfake (contenido manipulado por IA que se asemeja a personas, objetos, lugares o eventos reales). La ley trata sobre protección de datos personales pero no aborda específicamente la definición o regulación de deepfakes.",
+      "needs_human_review": false,
+      "gt_fallo": "absent",
+      "gt_articulo": null,
+      "gt_razon": "Ninguna ley define deepfake.",
+      "match_gt": "match",
+      "chunks_top_k": [
+        {
+          "articulo": "1",
+          "score": 0.29089945554733276
+        },
+        {
+          "articulo": "5",
+          "score": 0.2825363278388977
+        },
+        {
+          "articulo": "11",
+          "score": 0.2713548541069031
+        },
+        {
+          "articulo": "44",
+          "score": 0.2657471001148224
+        },
+        {
+          "articulo": "3",
+          "score": 0.2501724660396576
+        },
+        {
+          "articulo": "23",
+          "score": 0.24795828759670258
+        },
+        {
+          "articulo": "12",
+          "score": 0.24751897156238556
+        }
+      ],
+      "tiempo_seg": 1.73
+    },
+    {
+      "requisito_id": "R09",
+      "requisito": "La ley define el concepto de deepfake (contenido manipulado por IA que se asemeja a personas, objetos, lugares o eventos reales).",
+      "dimension": "4. Contenido sintético y deepfakes",
+      "capa": "A",
+      "articulo_estandar": "EU AI Act Art. 3(60)",
+      "ley": "Chile21719",
+      "motor_fallo": "absent",
+      "motor_articulo": null,
+      "motor_evidencia": null,
+      "motor_confidence": 0.95,
+      "motor_razon": "El texto fuente no contiene ninguna definición del concepto de deepfake o contenido manipulado por IA. La ley trata sobre protección de datos personales, infracciones administrativas y derechos de titulares, pero no aborda específicamente deepfakes ni su caracterización.",
+      "needs_human_review": false,
+      "gt_fallo": "absent",
+      "gt_articulo": null,
+      "gt_razon": "Ninguna ley define deepfake.",
+      "match_gt": "match",
+      "chunks_top_k": [
+        {
+          "articulo": "34",
+          "score": 0.3233015537261963
+        },
+        {
+          "articulo": "34",
+          "score": 0.31591588258743286
+        },
+        {
+          "articulo": "34",
+          "score": 0.298505961894989
+        },
+        {
+          "articulo": "15",
+          "score": 0.24533119797706604
+        },
+        {
+          "articulo": "16",
+          "score": 0.2407640516757965
+        },
+        {
+          "articulo": "8",
+          "score": 0.23814767599105835
+        },
+        {
+          "articulo": "34",
+          "score": 0.22607365250587463
+        }
+      ],
+      "tiempo_seg": 1.73
+    },
+    {
+      "requisito_id": "R10",
+      "requisito": "La ley obliga a los proveedores de sistemas de IA generativa a marcar las salidas como contenido sintético en formato legible por máquina.",
+      "dimension": "4. Contenido sintético y deepfakes",
+      "capa": "A",
+      "articulo_estandar": "EU AI Act Art. 50(2)",
+      "ley": "LGPD",
+      "motor_fallo": "absent",
+      "motor_articulo": null,
+      "motor_evidencia": null,
+      "motor_confidence": 0.95,
+      "motor_razon": "El texto fuente es una ley de protección de datos personales (LGPD brasileña) que no contiene disposiciones sobre sistemas de IA generativa, marcado de contenido sintético, ni formatos legibles por máquina para tales sistemas. El requisito es completamente ausente.",
+      "needs_human_review": false,
+      "gt_fallo": "absent",
+      "gt_articulo": null,
+      "gt_razon": "No obliga etiquetado de contenido generado por IA.",
+      "match_gt": "match",
+      "chunks_top_k": [
+        {
+          "articulo": "49",
+          "score": 0.5332978963851929
+        },
+        {
+          "articulo": "50",
+          "score": 0.47759461402893066
+        },
+        {
+          "articulo": "63",
+          "score": 0.4710451066493988
+        },
+        {
+          "articulo": "51",
+          "score": 0.4710264801979065
+        },
+        {
+          "articulo": "19",
+          "score": 0.4592425525188446
+        },
+        {
+          "articulo": "20",
+          "score": 0.45307520031929016
+        },
+        {
+          "articulo": "48",
+          "score": 0.45263636112213135
+        }
+      ],
+      "tiempo_seg": 1.86
+    },
+    {
+      "requisito_id": "R10",
+      "requisito": "La ley obliga a los proveedores de sistemas de IA generativa a marcar las salidas como contenido sintético en formato legible por máquina.",
+      "dimension": "4. Contenido sintético y deepfakes",
+      "capa": "A",
+      "articulo_estandar": "EU AI Act Art. 50(2)",
+      "ley": "Chile21719",
+      "motor_fallo": "absent",
+      "motor_articulo": null,
+      "motor_evidencia": null,
+      "motor_confidence": 0.95,
+      "motor_razon": "El texto legal no contiene ninguna disposición que obligue a marcar salidas de sistemas de IA generativa como contenido sintético en formato legible por máquina. La ley trata protección de datos personales, no regulación de IA generativa.",
+      "needs_human_review": false,
+      "gt_fallo": "absent",
+      "gt_articulo": null,
+      "gt_razon": "No obliga etiquetado de contenido generado por IA.",
+      "match_gt": "match",
+      "chunks_top_k": [
+        {
+          "articulo": "49",
+          "score": 0.47300028800964355
+        },
+        {
+          "articulo": "11",
+          "score": 0.4478035867214203
+        },
+        {
+          "articulo": "39",
+          "score": 0.44194459915161133
+        },
+        {
+          "articulo": "8",
+          "score": 0.42962124943733215
+        },
+        {
+          "articulo": "14",
+          "score": 0.4270310401916504
+        },
+        {
+          "articulo": "48",
+          "score": 0.4183995723724365
+        },
+        {
+          "articulo": "47",
+          "score": 0.41375601291656494
+        }
+      ],
+      "tiempo_seg": 1.8
+    },
+    {
+      "requisito_id": "R11",
+      "requisito": "Los datos biométricos están clasificados como categoría especial de datos sensibles con régimen reforzado de protección.",
+      "dimension": "4. Contenido sintético y deepfakes",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 9",
+      "ley": "LGPD",
+      "motor_fallo": "absent",
+      "motor_articulo": null,
+      "motor_evidencia": null,
+      "motor_confidence": 0.95,
+      "motor_razon": "El texto no menciona explícitamente que datos biométricos sean clasificados como categoría especial de datos sensibles. Aunque Art. 11 regula datos sensibles y Art. 46 menciona protección reforzada, no hay referencia específica a datos biométricos.",
+      "needs_human_review": false,
+      "gt_fallo": "full",
+      "gt_articulo": "Art. 11",
+      "gt_razon": "Datos biométricos como sensibles.",
+      "match_gt": "mismatch",
+      "chunks_top_k": [
+        {
+          "articulo": "46",
+          "score": 0.5665184855461121
+        },
+        {
+          "articulo": "13",
+          "score": 0.5535721778869629
+        },
+        {
+          "articulo": "49",
+          "score": 0.5471985936164856
+        },
+        {
+          "articulo": "11",
+          "score": 0.5373749732971191
+        },
+        {
+          "articulo": "38",
+          "score": 0.5315295457839966
+        },
+        {
+          "articulo": "44",
+          "score": 0.5082388520240784
+        },
+        {
+          "articulo": "2",
+          "score": 0.48767098784446716
+        }
+      ],
+      "tiempo_seg": 1.59
+    },
+    {
+      "requisito_id": "R11",
+      "requisito": "Los datos biométricos están clasificados como categoría especial de datos sensibles con régimen reforzado de protección.",
+      "dimension": "4. Contenido sintético y deepfakes",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 9",
+      "ley": "Chile21719",
+      "motor_fallo": "partial",
+      "motor_articulo": "16 ter",
+      "motor_evidencia": "Datos personales biométricos aquellos obtenidos a partir de un tratamiento técnico específico",
+      "motor_confidence": 0.65,
+      "motor_razon": "El texto define datos biométricos y requiere consentimiento informado reforzado, pero no los clasifica explícitamente como 'categoría especial' ni establece un 'régimen reforzado de protección' integral. Solo requiere información específica y remite al artículo 16 sin detallar protecciones especiales diferenciadas.",
+      "needs_human_review": false,
+      "gt_fallo": "full",
+      "gt_articulo": "Art. 16 ter",
+      "gt_razon": "Datos biométricos como sensibles.",
+      "match_gt": "mismatch",
+      "chunks_top_k": [
+        {
+          "articulo": "16",
+          "score": 0.576880693435669
+        },
+        {
+          "articulo": "24",
+          "score": 0.5742359161376953
+        },
+        {
+          "articulo": "16",
+          "score": 0.5665889382362366
+        },
+        {
+          "articulo": "14",
+          "score": 0.5616142749786377
+        },
+        {
+          "articulo": "15",
+          "score": 0.5108019113540649
+        },
+        {
+          "articulo": "14",
+          "score": 0.5045497417449951
+        },
+        {
+          "articulo": "25",
+          "score": 0.4674610495567322
+        }
+      ],
+      "tiempo_seg": 2.65
+    },
+    {
+      "requisito_id": "R12",
+      "requisito": "La ley exige Evaluación de Impacto en la Protección de Datos (EIPD/DPIA) obligatoria para tratamientos de alto riesgo (decisiones automatizadas, tratamiento masivo, monitoreo zonas públicas, datos sensibles).",
+      "dimension": "5. Enforcement e institucionalidad",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 35 + EU AI Act Art. 9",
+      "ley": "LGPD",
+      "motor_fallo": "partial",
+      "motor_articulo": "38",
+      "motor_evidencia": "A autoridade nacional poderá determinar ao controlador que elabore relatório de impacto",
+      "motor_confidence": 0.45,
+      "motor_razon": "Art. 38 permite que la autoridad nacional ORDENE evaluaciones de impacto, pero no las hace OBLIGATORIAS para tratamientos de alto riesgo específicos. La EIPD es facultativa (poderá) no mandatoria (deve), y falta definición explícita de supuestos de alto riesgo que la disparen automáticamente.",
+      "needs_human_review": true,
+      "gt_fallo": "partial",
+      "gt_articulo": "Art. 38",
+      "gt_razon": "Solo a pedido de la ANPD, no por default.",
+      "match_gt": "match",
+      "chunks_top_k": [
+        {
+          "articulo": "46",
+          "score": 0.6669577360153198
+        },
+        {
+          "articulo": "32",
+          "score": 0.6659859418869019
+        },
+        {
+          "articulo": "38",
+          "score": 0.6583634614944458
+        },
+        {
+          "articulo": "49",
+          "score": 0.629751980304718
+        },
+        {
+          "articulo": "63",
+          "score": 0.604182243347168
+        },
+        {
+          "articulo": "29",
+          "score": 0.5854886770248413
+        },
+        {
+          "articulo": "50",
+          "score": 0.585180401802063
+        }
+      ],
+      "tiempo_seg": 2.28
+    },
+    {
+      "requisito_id": "R12",
+      "requisito": "La ley exige Evaluación de Impacto en la Protección de Datos (EIPD/DPIA) obligatoria para tratamientos de alto riesgo (decisiones automatizadas, tratamiento masivo, monitoreo zonas públicas, datos sensibles).",
+      "dimension": "5. Enforcement e institucionalidad",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 35 + EU AI Act Art. 9",
+      "ley": "Chile21719",
+      "motor_fallo": "full",
+      "motor_articulo": "15 ter",
+      "motor_evidencia": "Evaluación de impacto se requerirá siempre en casos de: a) Evaluación sistemática exhaustiva automatizadas b) Tratamiento masivo c) observación monitoreo sistemático d) datos sensibles",
+      "motor_confidence": 0.95,
+      "motor_razon": "El Art. 15 ter establece obligatoriedad de EIPD para los cuatro supuestos del requisito: decisiones automatizadas, tratamiento masivo, monitoreo de zonas públicas y datos sensibles. Incluye procedimiento previo al inicio, agencia orientativa y medidas mínimas.",
+      "needs_human_review": false,
+      "gt_fallo": "full",
+      "gt_articulo": "Art. 15 ter",
+      "gt_razon": "Obligatoria para evaluaciones automatizadas, masivo, monitoreo, sensibles.",
+      "match_gt": "match",
+      "chunks_top_k": [
+        {
+          "articulo": "15",
+          "score": 0.7881467938423157
+        },
+        {
+          "articulo": "14",
+          "score": 0.6933045983314514
+        },
+        {
+          "articulo": "14",
+          "score": 0.6155909299850464
+        },
+        {
+          "articulo": "49",
+          "score": 0.6058290600776672
+        },
+        {
+          "articulo": "48",
+          "score": 0.5990100502967834
+        },
+        {
+          "articulo": "14",
+          "score": 0.5418485999107361
+        },
+        {
+          "articulo": "21",
+          "score": 0.53843754529953
+        }
+      ],
+      "tiempo_seg": 2.71
+    },
+    {
+      "requisito_id": "R13",
+      "requisito": "La ley exige el principio de protección de datos desde el diseño y por defecto (privacy by design / by default).",
+      "dimension": "5. Enforcement e institucionalidad",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 25",
+      "ley": "LGPD",
+      "motor_fallo": "absent",
+      "motor_articulo": null,
+      "motor_evidencia": null,
+      "motor_confidence": 0.95,
+      "motor_razon": "El texto legal no contiene referencias explícitas al principio de 'privacy by design' o 'privacy by default'. El Art. 49 menciona requisitos de seguridad y buenas prácticas, pero no exige integración de privacidad en el diseño desde el inicio o configuraciones predeterminadas protectoras. Los artículos citan protección de datos, seguridad y principios, pero no el enfoque proactivo de diseño.",
+      "needs_human_review": false,
+      "gt_fallo": "full",
+      "gt_articulo": "Art. 46 §2",
+      "gt_razon": "Privacy by design explícito.",
+      "match_gt": "mismatch",
+      "chunks_top_k": [
+        {
+          "articulo": "2",
+          "score": 0.7707595229148865
+        },
+        {
+          "articulo": "49",
+          "score": 0.7293906211853027
+        },
+        {
+          "articulo": "1",
+          "score": 0.7293409109115601
+        },
+        {
+          "articulo": "22",
+          "score": 0.6737123131752014
+        },
+        {
+          "articulo": "58",
+          "score": 0.6509206295013428
+        },
+        {
+          "articulo": "44",
+          "score": 0.6467419266700745
+        },
+        {
+          "articulo": "14",
+          "score": 0.6411910057067871
+        }
+      ],
+      "tiempo_seg": 1.93
+    },
+    {
+      "requisito_id": "R13",
+      "requisito": "La ley exige el principio de protección de datos desde el diseño y por defecto (privacy by design / by default).",
+      "dimension": "5. Enforcement e institucionalidad",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 25",
+      "ley": "Chile21719",
+      "motor_fallo": "full",
+      "motor_articulo": "14 quáter",
+      "motor_evidencia": "medidas técnicas y organizativas adecuadas desde el diseño con anterioridad y durante el tratamiento",
+      "motor_confidence": 0.95,
+      "motor_razon": "El artículo 14 quáter exige explícitamente medidas desde el diseño (privacy by design) y por defecto, especificando que solo se traten datos estrictamente necesarios, cumpliendo ambos componentes del requisito.",
+      "needs_human_review": false,
+      "gt_fallo": "full",
+      "gt_articulo": "Art. 14 quáter",
+      "gt_razon": "Privacy by design explícito.",
+      "match_gt": "match",
+      "chunks_top_k": [
+        {
+          "articulo": "14",
+          "score": 0.7445436716079712
+        },
+        {
+          "articulo": "14",
+          "score": 0.7136563062667847
+        },
+        {
+          "articulo": "14",
+          "score": 0.6971511840820312
+        },
+        {
+          "articulo": "9",
+          "score": 0.675209105014801
+        },
+        {
+          "articulo": "49",
+          "score": 0.6604300737380981
+        },
+        {
+          "articulo": "48",
+          "score": 0.6413105726242065
+        },
+        {
+          "articulo": "14",
+          "score": 0.6127251386642456
+        }
+      ],
+      "tiempo_seg": 2.09
+    },
+    {
+      "requisito_id": "R14",
+      "requisito": "La ley reconoce el ejercicio colectivo de los derechos del titular (acción colectiva / class action en materia de protección de datos).",
+      "dimension": "5. Enforcement e institucionalidad",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 80 + Directiva 2020/1828",
+      "ley": "LGPD",
+      "motor_fallo": "full",
+      "motor_articulo": "22",
+      "motor_evidencia": "A defesa dos interesses e dos direitos dos titulares de dados poderá ser exercida em juízo, individual ou coletivamente",
+      "motor_confidence": 0.95,
+      "motor_razon": "El Art. 22 reconoce explícitamente el ejercicio colectivo de derechos en protección de datos, permitiendo acciones colectivas en juicio conforme a la legislación pertinente.",
+      "needs_human_review": false,
+      "gt_fallo": "full",
+      "gt_articulo": "Art. 22",
+      "gt_razon": "Permite ejercicio individual o colectivo.",
+      "match_gt": "match",
+      "chunks_top_k": [
+        {
+          "articulo": "22",
+          "score": 0.8125410079956055
+        },
+        {
+          "articulo": "1",
+          "score": 0.6931167840957642
+        },
+        {
+          "articulo": "26",
+          "score": 0.6750132441520691
+        },
+        {
+          "articulo": "45",
+          "score": 0.6589598059654236
+        },
+        {
+          "articulo": "42",
+          "score": 0.6582038998603821
+        },
+        {
+          "articulo": "30",
+          "score": 0.6561853885650635
+        },
+        {
+          "articulo": "27",
+          "score": 0.6386643648147583
+        }
+      ],
+      "tiempo_seg": 1.68
+    },
+    {
+      "requisito_id": "R14",
+      "requisito": "La ley reconoce el ejercicio colectivo de los derechos del titular (acción colectiva / class action en materia de protección de datos).",
+      "dimension": "5. Enforcement e institucionalidad",
+      "capa": "B",
+      "articulo_estandar": "GDPR Art. 80 + Directiva 2020/1828",
+      "ley": "Chile21719",
+      "motor_fallo": "absent",
+      "motor_articulo": null,
+      "motor_evidencia": null,
+      "motor_confidence": 0.95,
+      "motor_razon": "La ley reconoce derechos individuales del titular (acceso, rectificación, supresión, etc.) y permite ejercerlos 'por sí o a través de su representante legal o mandatario', pero no contempla acciones colectivas o class actions para protección de datos. No hay disposición que permita a grupos de titulares ejercer derechos conjuntamente ni mecanismos de litigio colectivo.",
+      "needs_human_review": false,
+      "gt_fallo": "absent",
+      "gt_articulo": null,
+      "gt_razon": "21.719 no prevé acción colectiva. Solo acción individual en Art. 47. El Art. 22 regula cesión por órganos públicos, no es acción colectiva.",
+      "match_gt": "match",
+      "chunks_top_k": [
+        {
+          "articulo": "10",
+          "score": 0.6723748445510864
+        },
+        {
+          "articulo": "33",
+          "score": 0.6707679033279419
+        },
+        {
+          "articulo": "9",
+          "score": 0.6706824898719788
+        },
+        {
+          "articulo": "4",
+          "score": 0.6536743640899658
+        },
+        {
+          "articulo": "23",
+          "score": 0.6512349843978882
+        },
+        {
+          "articulo": "8",
+          "score": 0.6385907530784607
+        },
+        {
+          "articulo": "47",
+          "score": 0.6342142820358276
+        }
+      ],
+      "tiempo_seg": 2.12
+    }
+  ]
+}
