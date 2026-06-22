@@ -64,7 +64,7 @@ paridad/
 Requires **Python 3.10+** (the code uses `list[dict]` builtin generics).
 
 ```bash
-git clone https://github.com/PMeik/paridad.git
+git clone https://github.com/PMeik/paridad-.git
 cd paridad
 
 python -m venv .venv
