@@ -247,10 +247,3 @@ legal texts and public privacy policies and emits coverage verdicts with literal
 evidence; it produces no model internals, no personal data, and no attack
 surface. Users extending the tool should preserve this scope: audit policies,
 do not weaponize the pipeline.
-
----
-
-## License
-
-Add a license before publishing (MIT recommended for hackathon code unless your
-venue requires otherwise).
